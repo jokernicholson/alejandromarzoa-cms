@@ -2,10 +2,11 @@ import type { CollectionConfig } from 'payload'
 
 export const Proyectos: CollectionConfig = {
   slug: 'proyectos',
+  draft: true, // Habilitar modo borrador
   admin: {
     useAsTitle: 'titulo',
     description: 'Gestiona los proyectos del portfolio',
-    defaultColumns: ['titulo', 'tipo', 'plataforma', 'fecha', 'categoria'],
+    defaultColumns: ['titulo', 'tipo', 'plataforma', 'fecha', 'categoria', '_status'],
     group: 'Contenido',
   },
   access: {
