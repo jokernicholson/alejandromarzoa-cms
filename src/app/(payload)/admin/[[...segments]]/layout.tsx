@@ -5,8 +5,11 @@ import type { Metadata } from 'next'
 import config from '@payload-config'
 import { generatePageMetadata } from '@payloadcms/next/views'
 
-type Args = {
+type LayoutProps = {
   children: React.ReactNode
+}
+
+type MetadataArgs = {
   params: Promise<{
     segments: string[]
   }>
@@ -15,9 +18,9 @@ type Args = {
   }>
 }
 
-export const generateMetadata = ({ params, searchParams }: Args): Promise<Metadata> =>
+export const generateMetadata = ({ params, searchParams }: MetadataArgs): Promise<Metadata> =>
   generatePageMetadata({ config, params, searchParams })
 
-const Layout = ({ children }: Args) => children
+const Layout = ({ children }: LayoutProps) => children
 
 export default Layout
