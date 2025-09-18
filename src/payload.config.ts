@@ -22,6 +22,12 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+    uploadHandlers: [
+      {
+        handler: 'vercel-blob',
+        token: process.env.BLOB_READ_WRITE_TOKEN || '',
+      },
+    ],
   },
   collections: [Users, Media, Proyectos],
   globals: [SiteConfig],
