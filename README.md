@@ -1,72 +1,231 @@
-# Payload Blank Template
+# 🎬 Alejandro Marzoa CMS
 
-This template comes configured with the bare minimum to get started on anything you need.
+Sistema de gestión de contenido (CMS) para el sitio web de Alejandro Marzoa, desarrollado con **Payload CMS 3.0** y desplegado en **Vercel**.
 
-## Quick start
+## 📋 Descripción
 
-This template can be deployed directly from our Cloud hosting and it will setup MongoDB and cloud S3 object storage for media.
+Este repositorio contiene el backend CMS que gestiona todo el contenido del sitio web de Alejandro Marzoa, incluyendo proyectos, medios (videos) y configuraciones del sitio. El frontend está desarrollado con **Astro** y se encuentra en un [repositorio separado](https://github.com/jokernicholson/alejandromarzoa-website).
 
-## Quick Start - local setup
+## 🏗️ Arquitectura del Proyecto
 
-To spin up this template locally, follow these steps:
+### Repositorios
+- **Backend CMS** (este repo): Payload CMS + Next.js + MongoDB + Vercel Blob
+- **Frontend Website**: [Astro + Tailwind CSS](https://github.com/jokernicholson/alejandromarzoa-website) (repositorio separado)
 
-### Clone
+### Stack Tecnológico
 
-After you click the `Deploy` button above, you'll want to have standalone copy of this repo on your machine. If you've already cloned this repo, skip to [Development](#development).
+#### Backend (Este repositorio)
+- **Framework**: Next.js 15.4.4
+- **CMS**: Payload CMS 3.56.0
+- **Base de datos**: MongoDB Atlas
+- **Almacenamiento**: Vercel Blob Storage
+- **Despliegue**: Vercel
+- **Gestor de paquetes**: pnpm
 
-### Development
+#### Frontend (Repositorio separado)
+- **Framework**: Astro
+- **Styling**: Tailwind CSS
+- **Despliegue**: Vercel
 
-1. First [clone the repo](#clone) if you have not done so already
-2. `cd my-project && cp .env.example .env` to copy the example environment variables. You'll need to add the `MONGODB_URI` from your Cloud project to your `.env` if you want to use S3 storage and the MongoDB database that was created for you.
+## 🚀 Características
 
-3. `pnpm install && pnpm dev` to install dependencies and start the dev server
-4. open `http://localhost:3000` to open the app in your browser
+- ✅ **Gestión de contenido** completa con Payload CMS
+- ✅ **Almacenamiento de videos** con Vercel Blob Storage
+- ✅ **Base de datos** MongoDB Atlas
+- ✅ **Despliegue automático** GitHub → Vercel
+- ✅ **SEO optimizado** con plugin SEO de Payload
+- ✅ **Editor de texto rico** con Lexical
+- ✅ **Autenticación** de usuarios
+- ✅ **API GraphQL** integrada
 
-That's it! Changes made in `./src` will be reflected in your app. Follow the on-screen instructions to login and create your first admin user. Then check out [Production](#production) once you're ready to build and serve your app, and [Deployment](#deployment) when you're ready to go live.
+## 📁 Estructura del Proyecto
 
-#### Docker (Optional)
+```
+alejandromarzoa-cms/
+├── src/
+│   ├── app/
+│   │   ├── (frontend)/          # Páginas del frontend
+│   │   ├── (payload)/           # Admin panel de Payload
+│   │   └── api/                 # API routes
+│   ├── collections/             # Colecciones de Payload
+│   │   ├── Media.ts            # Gestión de archivos multimedia
+│   │   ├── Proyectos.ts        # Proyectos de Alejandro
+│   │   └── Users.ts            # Usuarios del sistema
+│   ├── globals/                # Configuraciones globales
+│   │   └── SiteConfig.ts       # Configuración del sitio
+│   └── payload.config.ts       # Configuración principal de Payload
+├── media/                      # Archivos multimedia locales
+├── tests/                      # Tests del proyecto
+└── vercel.json                # Configuración de Vercel
+```
 
-If you prefer to use Docker for local development instead of a local MongoDB instance, the provided docker-compose.yml file can be used.
+## 🛠️ Instalación y Configuración
 
-To do so, follow these steps:
+### Prerrequisitos
+- Node.js 22.x
+- pnpm >= 10.0.0
+- MongoDB Atlas (cuenta)
+- Vercel (cuenta)
 
-- Modify the `MONGODB_URI` in your `.env` file to `mongodb://127.0.0.1/<dbname>`
-- Modify the `docker-compose.yml` file's `MONGODB_URI` to match the above `<dbname>`
-- Run `docker-compose up` to start the database, optionally pass `-d` to run in the background.
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/jokernicholson/alejandromarzoa-cms.git
+cd alejandromarzoa-cms
+```
 
-## How it works
+### 2. Instalar dependencias
+```bash
+pnpm install
+```
 
-The Payload config is tailored specifically to the needs of most websites. It is pre-configured in the following ways:
+### 3. Configurar variables de entorno
+Copia el archivo de ejemplo y configura las variables:
+```bash
+cp env.production.example .env.local
+```
 
-### Collections
+Edita `.env.local` con tus valores:
+```env
+# Variables de entorno para desarrollo
+NODE_ENV=development
 
-See the [Collections](https://payloadcms.com/docs/configuration/collections) docs for details on how to extend this functionality.
+# Payload CMS
+PAYLOAD_SECRET=tu_secreto_payload_aqui
 
-- #### Users (Authentication)
+# Base de datos MongoDB
+MONGODB_URI=mongodb+srv://usuario:password@cluster.mongodb.net/alejandromarzoa?retryWrites=true&w=majority&appName=Cluster0
 
-  Users are auth-enabled collections that have access to the admin panel.
+# URLs públicas
+PAYLOAD_PUBLIC_SERVER_URL=http://localhost:3000
+PAYLOAD_PUBLIC_SITE_URL=http://localhost:3000
 
-  For additional help, see the official [Auth Example](https://github.com/payloadcms/payload/tree/main/examples/auth) or the [Authentication](https://payloadcms.com/docs/authentication/overview#authentication-overview) docs.
+# Vercel Blob Storage
+BLOB_READ_WRITE_TOKEN=tu_token_vercel_blob_aqui
+NEXT_PUBLIC_BLOB_READ_WRITE_TOKEN=tu_token_vercel_blob_aqui
+```
 
-- #### Media
+### 4. Ejecutar en desarrollo
+```bash
+pnpm dev
+```
 
-  This is the uploads enabled collection. It features pre-configured sizes, focal point and manual resizing to help you manage your pictures.
+El CMS estará disponible en: http://localhost:3000/admin
 
-### Docker
+## 🌐 Despliegue
 
-Alternatively, you can use [Docker](https://www.docker.com) to spin up this template locally. To do so, follow these steps:
+### Vercel (Recomendado)
 
-1. Follow [steps 1 and 2 from above](#development), the docker-compose file will automatically use the `.env` file in your project root
-1. Next run `docker-compose up`
-1. Follow [steps 4 and 5 from above](#development) to login and create your first admin user
+1. **Conectar repositorio a Vercel**
+   - Ve a [Vercel Dashboard](https://vercel.com/dashboard)
+   - Importa el repositorio desde GitHub
+   - Configura las variables de entorno en Vercel
 
-That's it! The Docker instance will help you get up and running quickly while also standardizing the development environment across your teams.
+2. **Variables de entorno en Vercel**
+   ```
+   NODE_ENV=production
+   PAYLOAD_SECRET=tu_secreto_payload_produccion
+   MONGODB_URI=tu_uri_mongodb_atlas
+   PAYLOAD_PUBLIC_SERVER_URL=https://alejandromarzoa-cms.vercel.app
+   PAYLOAD_PUBLIC_SITE_URL=https://www.alejandromarzoa.com
+   BLOB_READ_WRITE_TOKEN=tu_token_vercel_blob
+   NEXT_PUBLIC_BLOB_READ_WRITE_TOKEN=tu_token_vercel_blob
+   ```
 
-## Questions
+3. **Despliegue automático**
+   - Cada push a `main` desplegará automáticamente
+   - URL de producción: https://alejandromarzoa-cms.vercel.app
 
-If you have any issues or questions, reach out to us on [Discord](https://discord.com/invite/payload) or start a [GitHub discussion](https://github.com/payloadcms/payload/discussions).
-# Forzar nuevo deployment con ESLint corregido
-# Test deployment
-# Test with environment variables
-# Force new deployment
-# Fix payload config
+## 📊 Colecciones de Datos
+
+### Media
+- **Tipo**: Archivos multimedia (videos, imágenes)
+- **Almacenamiento**: Vercel Blob Storage
+- **Formatos soportados**: MP4, WebM, JPG, PNG, etc.
+
+### Proyectos
+- **Tipo**: Proyectos de Alejandro Marzoa
+- **Campos**: Título, descripción, fecha, medios, SEO
+- **SEO**: Optimizado automáticamente
+
+### Users
+- **Tipo**: Usuarios del sistema
+- **Autenticación**: Email/password
+- **Roles**: Admin, Editor
+
+## 🔧 Scripts Disponibles
+
+```bash
+# Desarrollo
+pnpm dev                 # Servidor de desarrollo
+pnpm devsafe           # Desarrollo con limpieza de cache
+
+# Construcción
+pnpm build             # Build de producción
+pnpm start             # Servidor de producción
+
+# Payload CMS
+pnpm payload           # CLI de Payload
+pnpm generate:types    # Generar tipos TypeScript
+pnpm generate:importmap # Generar mapa de importaciones
+
+# Testing
+pnpm test              # Ejecutar todos los tests
+pnpm test:int          # Tests de integración
+pnpm test:e2e          # Tests end-to-end
+
+# Linting
+pnpm lint              # Verificar código
+```
+
+## 🔐 Seguridad
+
+- ✅ **Credenciales**: Todas las credenciales están en variables de entorno
+- ✅ **MongoDB**: Conexión segura con MongoDB Atlas
+- ✅ **Vercel Blob**: Tokens de acceso seguros
+- ✅ **HTTPS**: Despliegue con certificados SSL automáticos
+
+## 📈 Monitoreo y Logs
+
+- **Vercel Analytics**: Métricas de rendimiento
+- **MongoDB Atlas**: Monitoreo de base de datos
+- **Vercel Blob**: Estadísticas de almacenamiento
+
+## 🤝 Contribución
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+## 🔗 Enlaces Relacionados
+
+- **Frontend Website**: [Repositorio Astro](https://github.com/jokernicholson/alejandromarzoa-website)
+- **Sitio Web**: https://www.alejandromarzoa.com
+- **CMS Admin**: https://alejandromarzoa-cms.vercel.app/admin
+- **Payload CMS**: https://payloadcms.com
+- **Vercel**: https://vercel.com
+
+## 👨‍💻 Autor
+
+**David Medina**
+- GitHub: [@jokernicholson](https://github.com/jokernicholson)
+- Email: david@davidmedina.es
+
+---
+
+## 🆘 Soporte
+
+Si tienes problemas o preguntas:
+
+1. Revisa la [documentación de Payload CMS](https://payloadcms.com/docs)
+2. Consulta los [issues del repositorio](https://github.com/jokernicholson/alejandromarzoa-cms/issues)
+3. Contacta al desarrollador: david@davidmedina.es
+
+---
+
+*Desarrollado con ❤️ para Alejandro Marzoa*
