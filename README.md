@@ -45,8 +45,8 @@ alejandromarzoa-cms/
 ├── src/
 │   ├── app/
 │   │   ├── (frontend)/          # Páginas del frontend
-│   │   ├── (payload)/           # Admin panel de Payload
-│   │   └── api/                 # API routes
+│   │   ├── (payload)/           # Panel de administración de Payload
+│   │   └── api/                 # Rutas de la API
 │   ├── collections/             # Colecciones de Payload
 │   │   ├── Media.ts            # Gestión de archivos multimedia
 │   │   ├── Proyectos.ts        # Proyectos de Alejandro
@@ -55,7 +55,7 @@ alejandromarzoa-cms/
 │   │   └── SiteConfig.ts       # Configuración del sitio
 │   └── payload.config.ts       # Configuración principal de Payload
 ├── media/                      # Archivos multimedia locales
-├── tests/                      # Tests del proyecto
+├── tests/                      # Pruebas del proyecto
 └── vercel.json                # Configuración de Vercel
 ```
 
@@ -116,7 +116,7 @@ El CMS estará disponible en: http://localhost:3000/admin
 ### Vercel (Recomendado)
 
 1. **Conectar repositorio a Vercel**
-   - Ve a [Vercel Dashboard](https://vercel.com/dashboard)
+   - Ve al [Panel de Vercel](https://vercel.com/dashboard)
    - Importa el repositorio desde GitHub
    - Configura las variables de entorno en Vercel
 
@@ -149,7 +149,7 @@ El CMS estará disponible en: http://localhost:3000/admin
 
 ### Users
 - **Tipo**: Usuarios del sistema
-- **Autenticación**: Email/password
+- **Autenticación**: Email/contraseña
 - **Roles**: Admin, Editor
 
 ## 🔧 Scripts Disponibles
@@ -157,7 +157,7 @@ El CMS estará disponible en: http://localhost:3000/admin
 ```bash
 # Desarrollo
 pnpm dev                 # Servidor de desarrollo
-pnpm devsafe           # Desarrollo con limpieza de cache
+pnpm devsafe           # Desarrollo con limpieza de caché
 
 # Construcción
 pnpm build             # Build de producción
@@ -169,9 +169,9 @@ pnpm generate:types    # Generar tipos TypeScript
 pnpm generate:importmap # Generar mapa de importaciones
 
 # Testing
-pnpm test              # Ejecutar todos los tests
-pnpm test:int          # Tests de integración
-pnpm test:e2e          # Tests end-to-end
+pnpm test              # Ejecutar todas las pruebas
+pnpm test:int          # Pruebas de integración
+pnpm test:e2e          # Pruebas end-to-end
 
 # Linting
 pnpm lint              # Verificar código
@@ -193,9 +193,9 @@ pnpm lint              # Verificar código
 ## 🤝 Contribución
 
 1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
+2. Crea una rama para tu funcionalidad (`git checkout -b feature/FuncionalidadIncreible`)
+3. Commit tus cambios (`git commit -m 'Añadir alguna FuncionalidadIncreible'`)
+4. Push a la rama (`git push origin feature/FuncionalidadIncreible`)
 5. Abre un Pull Request
 
 ## 📝 Licencia
