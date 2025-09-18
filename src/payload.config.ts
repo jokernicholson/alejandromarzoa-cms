@@ -22,13 +22,6 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
-    upload: {
-      handlers: [
-        {
-          handler: '@payloadcms/storage-vercel-blob/client#VercelBlobClientUploadHandler',
-        },
-      ],
-    },
   },
   collections: [Users, Media, Proyectos],
   globals: [SiteConfig],
