@@ -2,7 +2,9 @@ import type { CollectionConfig } from 'payload'
 
 export const Media: CollectionConfig = {
   slug: 'media',
-  draft: true, // Habilitar modo borrador
+  versions: {
+    drafts: true, // Habilitar modo borrador
+  },
   admin: {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
   },
