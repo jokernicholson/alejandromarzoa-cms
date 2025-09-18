@@ -1,0 +1,31 @@
+
+> alejandromarzoa-cms@1.0.0 dev /Users/david/Documents/alejandromarzoa/payload/alejandromarzoa-cms
+> cross-env NODE_OPTIONS=--no-deprecation next dev
+
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/david/package-lock.json.
+   Consider removing the lockfiles at:
+   * /Users/david/Documents/alejandromarzoa/payload/alejandromarzoa-cms/pnpm-lock.yaml
+   * /Users/david/Documents/alejandromarzoa/package-lock.json
+
+   ▲ Next.js 15.4.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.134:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 1347ms
+ ○ Compiling /admin/[[...segments]] ...
+ ✓ Compiled /admin/[[...segments]] in 10.5s (3259 modules)
+[13:32:27] [33mWARN[39m: [36mNo email adapter provided. Email will be written to console. More info at https://payloadcms.com/docs/email/overview.[39m
+ GET /admin 307 in 14260ms
+ GET /admin/collections/proyectos/68be80c56fe547332c1ecddf 200 in 445ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /api/[...slug] in 3.4s (3280 modules)
+ GET /_next/static/chunks/DatePicker-NMDEHPWL.js.map 404 in 2200ms
+ GET /_next/static/chunks/app/(payload)/admin/%5B%5B...segments%5D%5D/chunk-7RGKTZG2.js.map 404 in 3698ms
+ GET /api/users/me 200 in 4491ms
+ GET /api/payload-preferences/collection-proyectos-68be80c56fe547332c1ecddf 200 in 1540ms
+ POST /api/media 200 in 4523ms
+ POST /api/payload-preferences/collection-proyectos-68be80c56fe547332c1ecddf 200 in 17ms
+ POST /admin/collections/proyectos/68be80c56fe547332c1ecddf 200 in 303ms
+[?25h

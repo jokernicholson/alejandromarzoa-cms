@@ -1,0 +1,57 @@
+/* Estilos personalizados para el admin panel de Payload CMS */
+
+/* Layout 50/50 para campos Título y URL Slug */
+/* Selectores específicos para Payload CMS 3.54 */
+
+/* Selector principal - usar el contenedor del campo */
+[data-field-name="titulo"],
+[data-field-name="slug"] {
+  width: 50% !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  box-sizing: border-box !important;
+  float: left !important;
+}
+
+/* Espaciado entre campos */
+[data-field-name="titulo"] {
+  margin-right: 1% !important;
+}
+
+[data-field-name="slug"] {
+  margin-left: 1% !important;
+}
+
+/* Limpiar floats después de los campos */
+[data-field-name="slug"]::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Asegurar que el siguiente campo después de slug esté en una nueva línea */
+[data-field-name="slug"] + [data-field-name] {
+  clear: both !important;
+}
+
+/* Selectores alternativos para diferentes estructuras de Payload */
+.field-type[data-field-name="titulo"],
+.field-type[data-field-name="slug"] {
+  width: 50% !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  box-sizing: border-box !important;
+  float: left !important;
+}
+
+/* Selectores para el input dentro del campo */
+[data-field-name="titulo"] input,
+[data-field-name="slug"] input {
+  width: 100% !important;
+}
+
+/* Contenedor padre para permitir el layout horizontal */
+.field-type[data-field-name="titulo"]:first-child,
+.field-type[data-field-name="slug"]:first-child {
+  clear: both;
+}
