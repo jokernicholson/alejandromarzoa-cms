@@ -13,7 +13,7 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PORT: 3000,
-        PAYLOAD_SECRET: '5a8a82c23e80c5dee5ee5139b0016d91075e86db8a0b82fe22d0f39d248fc500',
+        PAYLOAD_SECRET: '',
         MONGODB_URI: 'mongodb+srv://david_db_user:PvDazQYPcRQkdbQN@cluster0.yz1fx5w.mongodb.net/alejandromarzoa?retryWrites=true&w=majority&appName=Cluster0',
         PAYLOAD_PUBLIC_SERVER_URL: 'https://alejandromarzoa.com',
         PAYLOAD_PUBLIC_SITE_URL: 'https://alejandromarzoa.com'
