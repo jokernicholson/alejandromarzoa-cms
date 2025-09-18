@@ -1,4 +1,4 @@
-import { UploadHandlersProvider } from '@payloadcms/next/layouts'
+import { UploadHandlersProvider } from '@payloadcms/next/providers'
 import { VercelBlobClientUploadHandler } from '@payloadcms/storage-vercel-blob'
 
 export default function AdminLayout({
