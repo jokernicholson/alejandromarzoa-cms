@@ -3,7 +3,11 @@ import type { CollectionConfig } from 'payload'
 export const Proyectos: CollectionConfig = {
   slug: 'proyectos',
   versions: {
-    drafts: true, // Habilitar draft mode
+    drafts: {
+      autosave: {
+        interval: 100, // We set this interval for optimal performance for the demo
+      },
+    },
   },
   admin: {
     useAsTitle: 'titulo',

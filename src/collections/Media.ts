@@ -3,7 +3,11 @@ import type { CollectionConfig } from 'payload'
 export const Media: CollectionConfig = {
   slug: 'media',
   versions: {
-    drafts: true, // Habilitar draft mode
+    drafts: {
+      autosave: {
+        interval: 100,
+      },
+    },
   },
   admin: {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
