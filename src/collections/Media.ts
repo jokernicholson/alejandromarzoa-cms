@@ -9,7 +9,10 @@ export const Media: CollectionConfig = {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
   },
   access: {
-    read: () => true,
+    read: () => true, // Público para el frontend
+    create: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden crear
+    update: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden actualizar
+    delete: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden eliminar
   },
   fields: [
     {
