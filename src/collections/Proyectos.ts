@@ -12,20 +12,17 @@ export const Proyectos: CollectionConfig = {
     group: 'Contenido',
   },
   access: {
-    read: ({ req, user }) => {
-      // Para usuarios autenticados (admin panel), mostrar todos los documentos
-      if (user) {
+    read: ({ req }) => {
+      // Para usuarios autenticados, mostrar todos los documentos
+      if (req.user) {
         return true;
       }
-      // Para API pública, solo mostrar documentos publicados
-      if (!req.user) {
-        return {
-          _status: {
-            equals: 'published',
-          },
-        };
-      }
-      return true;
+      // Para usuarios no autenticados, solo mostrar documentos publicados
+      return {
+        _status: {
+          equals: 'published',
+        },
+      };
     },
   },
   fields: [
