@@ -2,9 +2,9 @@ import type { CollectionConfig } from 'payload'
 
 export const Media: CollectionConfig = {
   slug: 'media',
-  // versions: {
-  //   drafts: true, // Temporalmente deshabilitado para mostrar datos sin login
-  // },
+  versions: {
+    drafts: true, // Habilitar draft mode
+  },
   admin: {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
   },
