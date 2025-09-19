@@ -2,11 +2,11 @@ import type { CollectionConfig } from 'payload'
 
 export const Media: CollectionConfig = {
   slug: 'media',
-  versions: {
-    drafts: true, // Habilitar modo borrador
-  },
+  // versions: {
+  //   drafts: true, // Temporalmente deshabilitado para debug
+  // },
   admin: {
-    defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
+    defaultColumns: ['alt', 'filename', 'mimeType', 'filesize'],
   },
   access: {
     read: () => true, // Público para el frontend
