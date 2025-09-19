@@ -9,7 +9,16 @@ export const Media: CollectionConfig = {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
   },
   access: {
-    read: () => true, // Público para el frontend
+    read: ({ req }) => {
+      if (req.user) {
+        return true; // Usuarios autenticados ven todos los documentos
+      }
+      return {
+        _status: {
+          equals: 'published', // Usuarios no autenticados solo ven publicados
+        },
+      };
+    },
   },
   fields: [
     {
