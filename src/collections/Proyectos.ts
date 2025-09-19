@@ -12,7 +12,16 @@ export const Proyectos: CollectionConfig = {
     group: 'Contenido',
   },
   access: {
-    read: () => true, // Público para el frontend
+    read: ({ req: { user } }) => {
+      // Si hay usuario autenticado, puede ver todos los documentos
+      if (user) return true
+      // Si no hay usuario, solo puede ver documentos publicados
+      return {
+        _status: {
+          equals: 'published'
+        }
+      }
+    },
     create: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden crear
     update: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden actualizar
     delete: ({ req: { user } }) => Boolean(user), // Solo usuarios autenticados pueden eliminar
