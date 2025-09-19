@@ -2,9 +2,9 @@ import type { CollectionConfig } from 'payload'
 
 export const Proyectos: CollectionConfig = {
   slug: 'proyectos',
-  versions: {
-    drafts: true, // Habilitar draft mode
-  },
+  // versions: {
+  //   drafts: true, // Temporalmente deshabilitado para mostrar datos sin login
+  // },
   admin: {
     useAsTitle: 'titulo',
     description: 'Gestiona los proyectos del portfolio',
