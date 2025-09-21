@@ -1,0 +1,4429 @@
+{
+  "timestamp": "2025-09-21T19:49:57.974Z",
+  "database": "alejandromarzoa",
+  "collections": {
+    "_media_versions": {
+      "count": 0,
+      "documents": []
+    },
+    "_proyectos_versions": {
+      "count": 2,
+      "documents": [
+        {
+          "_id": "68d055583afc3ec3905b1748",
+          "parent": "68d055583afc3ec3905b1745",
+          "version": {
+            "categoria": [],
+            "destacado": false,
+            "meta": {},
+            "updatedAt": "2025-09-21T19:43:20.371Z",
+            "createdAt": "2025-09-21T19:43:20.371Z",
+            "_status": "draft"
+          },
+          "createdAt": "2025-09-21T19:43:20.417Z",
+          "updatedAt": "2025-09-21T19:43:20.417Z",
+          "autosave": false,
+          "__v": 0
+        },
+        {
+          "_id": "68d0555a3afc3ec3905b176f",
+          "parent": "68d055583afc3ec3905b1745",
+          "version": {
+            "titulo": "te",
+            "slug": "te",
+            "categoria": [],
+            "director": [],
+            "camposPersonalizados": [],
+            "productoras": [],
+            "directorFotografia": [],
+            "sonido": [],
+            "direccionArtistica": [],
+            "destacado": false,
+            "metaTitle": "te - Alejandro Marzoa",
+            "meta": {},
+            "updatedAt": "2025-09-21T19:43:22.953Z",
+            "createdAt": "2025-09-21T19:43:20.371Z",
+            "_status": "draft"
+          },
+          "createdAt": "2025-09-21T19:43:22.953Z",
+          "updatedAt": "2025-09-21T19:43:22.953Z",
+          "latest": true,
+          "autosave": true,
+          "__v": 0
+        }
+      ]
+    },
+    "globals": {
+      "count": 1,
+      "documents": [
+        {
+          "_id": "68be80c56fe547332c1ecdfc",
+          "createdAt": "2025-09-08T07:07:49.446Z",
+          "updatedAt": "2025-09-08T11:27:01.486Z",
+          "globalType": "site-config",
+          "siteName": "Alejandro Marzoa",
+          "siteDescription": "Director de ficción, documental y TV. Portfolio profesional.",
+          "siteUrl": "https://www.alejandromarzoa.com",
+          "heroText": "Dirijo proyectos de ficción y documental, y también trabajo como realizador en televisión.",
+          "contactEmail": "mail@alejandromarzoa.com",
+          "socialLinks": {},
+          "seo": {},
+          "__v": 0,
+          "meta": {
+            "title": "Alejandro Marzoa — Director y realizador",
+            "description": "Proyectos de ficción, series, documental y realización en televisión. Movistar+, Netflix, Producciones del barrio."
+          }
+        }
+      ]
+    },
+    "payload-preferences": {
+      "count": 22,
+      "documents": [
+        {
+          "_id": "68bd5690b67cf057ec3e7bea",
+          "createdAt": "2025-09-07T09:55:28.236Z",
+          "updatedAt": "2025-09-08T11:27:11.698Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "collection-users",
+          "value": {
+            "limit": 10,
+            "editViewType": "default"
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68be8def6dcdce1b755ca759",
+          "key": "collection-proyectos-68be80c56fe547332c1ecdc7",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T08:04:03.976Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6d6"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68be98646dcdce1b755cb12f",
+          "key": "collection-proyectos-68be80c56fe547332c1ecd9d",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T08:56:18.810Z",
+          "value": {
+            "fields": {
+              "director": {
+                "collapsed": [
+                  "68be97c7defbd463916ad2e3",
+                  "68be97b4defbd463916ad2dd",
+                  "68be97badefbd463916ad2df",
+                  "68be97c0defbd463916ad2e1"
+                ]
+              },
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6f0",
+                  "68be8bd14e4520e63506d6f1"
+                ]
+              },
+              "camposPersonalizados": {
+                "collapsed": [
+                  "68be98edbb9eaf8344116e62",
+                  "68be99d3441fc28d6acae9e8",
+                  "68be99e3441fc28d6acae9ee"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68be8ee36dcdce1b755ca8ad",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "collection-proyectos-68be80c56fe547332c1ecdb5",
+          "__v": 0,
+          "updatedAt": "2025-09-08T08:08:03.489Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6e3"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68bebee06dcdce1b755cd3ff",
+          "key": "collection-proyectos-68be80c56fe547332c1ecddf",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T11:32:48.923Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6c4"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68bd568c6dcdce1b755c5aab",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "global-site-config",
+          "__v": 0,
+          "updatedAt": "2025-09-07T09:55:23.997Z",
+          "value": {
+            "editViewType": "default"
+          }
+        },
+        {
+          "_id": "68beb0c76dcdce1b755cc490",
+          "key": "collection-proyectos-68be80c56fe547332c1ecdcd",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T10:32:39.865Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": []
+              }
+            }
+          }
+        },
+        {
+          "_id": "68beb6e8710cb570a9647bae",
+          "createdAt": "2025-09-08T10:58:48.589Z",
+          "updatedAt": "2025-09-08T11:01:48.653Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "collection-paginas",
+          "value": {
+            "editViewType": "default",
+            "limit": 10
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68bd5688b67cf057ec3e7bd6",
+          "createdAt": "2025-09-07T09:55:20.680Z",
+          "updatedAt": "2025-09-07T10:00:54.823Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "collection-proyectos",
+          "value": {
+            "limit": 10,
+            "editViewType": "default"
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68bd5691b67cf057ec3e7bf2",
+          "createdAt": "2025-09-07T09:55:29.095Z",
+          "updatedAt": "2025-09-08T07:15:10.101Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "collection-media",
+          "value": {
+            "limit": 10
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68bd57186dcdce1b755c5b05",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "key": "nav",
+          "__v": 0,
+          "updatedAt": "2025-09-08T11:26:59.052Z",
+          "value": {
+            "open": true,
+            "groups": {
+              "Collections": {
+                "open": true
+              },
+              "Configuración": {
+                "open": false
+              }
+            }
+          }
+        },
+        {
+          "_id": "68be8cba6dcdce1b755ca5a0",
+          "key": "collection-proyectos-68be80c56fe547332c1ecdbb",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T07:58:50.459Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6de"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68beac806dcdce1b755cbf76",
+          "key": "collection-proyectos-68be80c46fe547332c1ecd91",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T10:15:00.325Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6f5",
+                  "68be8bd14e4520e63506d6f6",
+                  "68be8bd14e4520e63506d6f7"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68beb2e76dcdce1b755cc78f",
+          "key": "collection-proyectos-68be80c56fe547332c1ecdd3",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T10:41:45.143Z",
+          "value": {
+            "fields": {
+              "productoras": {
+                "collapsed": [
+                  "68be8bd14e4520e63506d6ce"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68beb4096dcdce1b755cc8d7",
+          "key": "collection-proyectos-68be80c56fe547332c1ecda9",
+          "user": {
+            "relationTo": "users",
+            "value": "68bd5653b67cf057ec3e7bac"
+          },
+          "__v": 0,
+          "updatedAt": "2025-09-08T10:47:18.024Z",
+          "value": {
+            "fields": {
+              "camposPersonalizados.0.valores": {
+                "collapsed": [
+                  "68beb3f24a9a5f158403337b"
+                ]
+              },
+              "camposPersonalizados": {
+                "collapsed": [
+                  "68beb3ee4a9a5f1584033379"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "_id": "68c026028de3abc3333c8ac0",
+          "createdAt": "2025-09-09T13:05:06.797Z",
+          "updatedAt": "2025-09-21T17:27:36.187Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68c025fd9a77ba07ca500b4f"
+          },
+          "key": "collection-proyectos",
+          "value": {
+            "limit": 10,
+            "sort": "-fecha",
+            "columns": [
+              {
+                "accessor": "titulo",
+                "active": false
+              },
+              {
+                "accessor": "tipo",
+                "active": false
+              },
+              {
+                "accessor": "plataforma",
+                "active": false
+              },
+              {
+                "accessor": "fecha",
+                "active": false
+              },
+              {
+                "accessor": "categoria",
+                "active": false
+              },
+              {
+                "accessor": "_status",
+                "active": false
+              },
+              {
+                "accessor": "id",
+                "active": false
+              },
+              {
+                "accessor": "slug",
+                "active": false
+              },
+              {
+                "accessor": "imagen",
+                "active": false
+              },
+              {
+                "accessor": "videoloop",
+                "active": false
+              },
+              {
+                "accessor": "video",
+                "active": false
+              },
+              {
+                "accessor": "duracion",
+                "active": false
+              },
+              {
+                "accessor": "pais",
+                "active": false
+              },
+              {
+                "accessor": "director",
+                "active": false
+              },
+              {
+                "accessor": "camposPersonalizados",
+                "active": false
+              },
+              {
+                "accessor": "productoras",
+                "active": false
+              },
+              {
+                "accessor": "genero",
+                "active": false
+              },
+              {
+                "accessor": "sinopsis",
+                "active": false
+              },
+              {
+                "accessor": "directorFotografia",
+                "active": false
+              },
+              {
+                "accessor": "sonido",
+                "active": false
+              },
+              {
+                "accessor": "direccionArtistica",
+                "active": false
+              },
+              {
+                "accessor": "destacado",
+                "active": false
+              },
+              {
+                "accessor": "metaTitle",
+                "active": false
+              },
+              {
+                "accessor": "metaDescription",
+                "active": false
+              },
+              {
+                "accessor": "meta.overview",
+                "active": false
+              },
+              {
+                "accessor": "meta.title",
+                "active": false
+              },
+              {
+                "accessor": "meta.description",
+                "active": false
+              },
+              {
+                "accessor": "meta.preview",
+                "active": false
+              },
+              {
+                "accessor": "updatedAt",
+                "active": false
+              },
+              {
+                "accessor": "createdAt",
+                "active": false
+              }
+            ]
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68c026068de3abc3333c8ac9",
+          "createdAt": "2025-09-09T13:05:10.553Z",
+          "updatedAt": "2025-09-21T16:38:09.883Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68c025fd9a77ba07ca500b4f"
+          },
+          "key": "collection-media",
+          "value": {
+            "columns": [
+              {
+                "accessor": "alt",
+                "active": true
+              },
+              {
+                "accessor": "filename",
+                "active": true
+              },
+              {
+                "accessor": "mimeType",
+                "active": true
+              },
+              {
+                "accessor": "filesize",
+                "active": true
+              },
+              {
+                "accessor": "_status",
+                "active": true
+              },
+              {
+                "accessor": "id",
+                "active": true
+              },
+              {
+                "accessor": "updatedAt",
+                "active": true
+              },
+              {
+                "accessor": "createdAt",
+                "active": true
+              },
+              {
+                "accessor": "url",
+                "active": true
+              },
+              {
+                "accessor": "thumbnailURL",
+                "active": true
+              },
+              {
+                "accessor": "width",
+                "active": true
+              },
+              {
+                "accessor": "height",
+                "active": true
+              }
+            ],
+            "limit": 10
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68c0263c8de3abc3333c8ae1",
+          "createdAt": "2025-09-09T13:06:04.975Z",
+          "updatedAt": "2025-09-09T13:52:58.120Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68c025fd9a77ba07ca500b4f"
+          },
+          "key": "collection-users",
+          "value": {
+            "limit": 10
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68cbfe98d26c0d4b68aa7029",
+          "user": {
+            "relationTo": "users",
+            "value": "68c025fd9a77ba07ca500b4f"
+          },
+          "key": "nav",
+          "__v": 0,
+          "updatedAt": "2025-09-19T10:29:05.585Z",
+          "value": {
+            "groups": {
+              "Configuración": {
+                "open": true
+              }
+            },
+            "open": true
+          }
+        },
+        {
+          "_id": "68d0545486c22488dc5e7401",
+          "createdAt": "2025-09-21T19:39:00.075Z",
+          "updatedAt": "2025-09-21T19:43:21.371Z",
+          "user": {
+            "relationTo": "users",
+            "value": "68d0545286c22488dc5e73f6"
+          },
+          "key": "collection-proyectos",
+          "value": {
+            "limit": 10,
+            "editViewType": "default"
+          },
+          "__v": 0
+        },
+        {
+          "_id": "68d05489d26c0d4b68aa7f98",
+          "user": {
+            "relationTo": "users",
+            "value": "68d0545286c22488dc5e73f6"
+          },
+          "key": "nav",
+          "__v": 0,
+          "updatedAt": "2025-09-21T19:39:54.328Z",
+          "value": {
+            "groups": {
+              "Configuración": {
+                "open": true
+              }
+            }
+          }
+        },
+        {
+          "_id": "68d0548bd26c0d4b68aa7f99",
+          "user": {
+            "relationTo": "users",
+            "value": "68d0545286c22488dc5e73f6"
+          },
+          "key": "global-site-config",
+          "__v": 0,
+          "updatedAt": "2025-09-21T19:39:55.207Z",
+          "value": {
+            "editViewType": "default"
+          }
+        }
+      ]
+    },
+    "media": {
+      "count": 18,
+      "documents": [
+        {
+          "_id": "68be830a6fe547332c1ecf55",
+          "createdAt": "2025-09-08T07:17:30.446Z",
+          "updatedAt": "2025-09-08T07:17:30.446Z",
+          "alt": "Video loop de Salvados — Promo vuelve Salvados",
+          "url": "/videos/promo-salvados-tren.webm",
+          "filename": "promo-salvados-tren.webm",
+          "mimeType": "video/webm",
+          "filesize": 310776,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf82",
+          "createdAt": "2025-09-08T07:17:30.710Z",
+          "updatedAt": "2025-09-08T07:17:30.710Z",
+          "alt": "Video loop de LaLiga: Más alla del gol",
+          "url": "/videos/laliga.webm",
+          "filename": "laliga.webm",
+          "mimeType": "video/webm",
+          "filesize": 377943,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecfa6",
+          "createdAt": "2025-09-08T07:17:30.810Z",
+          "updatedAt": "2025-09-08T07:17:30.810Z",
+          "alt": "Video loop de Real Club Celta de Vigo 2009-2010",
+          "url": "/videos/spot-celta-2009.webm",
+          "filename": "spot-celta-2009.webm",
+          "mimeType": "video/webm",
+          "filesize": 716965,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecfb8",
+          "createdAt": "2025-09-08T07:17:30.860Z",
+          "updatedAt": "2025-09-08T07:17:30.860Z",
+          "alt": "Video loop de Sigamos Trabajando",
+          "url": "/videos/bankia.webm",
+          "filename": "bankia.webm",
+          "mimeType": "video/webm",
+          "filesize": 285620,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf3a",
+          "createdAt": "2025-09-08T07:17:30.369Z",
+          "updatedAt": "2025-09-08T07:17:30.369Z",
+          "alt": "Video loop de Somos Gente Honrada",
+          "url": "/videos/somos-gente-honrada.webm",
+          "filename": "somos-gente-honrada.webm",
+          "mimeType": "video/webm",
+          "filesize": 221258,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf43",
+          "createdAt": "2025-09-08T07:17:30.394Z",
+          "updatedAt": "2025-09-08T07:17:30.394Z",
+          "alt": "Video loop de Salvados — El valor del fútbol",
+          "url": "/videos/gonzo.webm",
+          "filename": "gonzo.webm",
+          "mimeType": "video/webm",
+          "filesize": 336352,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf4c",
+          "createdAt": "2025-09-08T07:17:30.421Z",
+          "updatedAt": "2025-09-08T07:17:30.421Z",
+          "alt": "Video loop de Salvados — Promo Emilio Aragón",
+          "url": "/videos/salvados-2020.webm",
+          "filename": "salvados-2020.webm",
+          "mimeType": "video/webm",
+          "filesize": 419706,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf70",
+          "createdAt": "2025-09-08T07:17:30.527Z",
+          "updatedAt": "2025-09-08T07:17:30.527Z",
+          "alt": "Video loop de Macarena el himno de un planeta",
+          "url": "/videos/la-macarena.webm",
+          "filename": "la-macarena.webm",
+          "mimeType": "video/webm",
+          "filesize": 321103,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf79",
+          "createdAt": "2025-09-08T07:17:30.569Z",
+          "updatedAt": "2025-09-08T07:17:30.569Z",
+          "alt": "Video loop de Lo de Évole — Gabriel Rufián",
+          "url": "/videos/evole.webm",
+          "filename": "evole.webm",
+          "mimeType": "video/webm",
+          "filesize": 341156,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf94",
+          "createdAt": "2025-09-08T07:17:30.763Z",
+          "updatedAt": "2025-09-08T07:17:30.763Z",
+          "alt": "Video loop de Cucharada",
+          "url": "/videos/cucharada.webm",
+          "filename": "cucharada.webm",
+          "mimeType": "video/webm",
+          "filesize": 274308,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf9d",
+          "createdAt": "2025-09-08T07:17:30.786Z",
+          "updatedAt": "2025-09-08T07:17:30.786Z",
+          "alt": "Video loop de Real Club Celta de Vigo 2010-2011",
+          "url": "/videos/spot-celta-2010.webm",
+          "filename": "spot-celta-2010.webm",
+          "mimeType": "video/webm",
+          "filesize": 439934,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecfaf",
+          "createdAt": "2025-09-08T07:17:30.836Z",
+          "updatedAt": "2025-09-08T07:17:30.836Z",
+          "alt": "Video loop de Benvinguts a la Familia",
+          "url": "/videos/benvinguts.webm",
+          "filename": "benvinguts.webm",
+          "mimeType": "video/webm",
+          "filesize": 353677,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf31",
+          "createdAt": "2025-09-08T07:17:30.341Z",
+          "updatedAt": "2025-09-08T07:17:30.341Z",
+          "alt": "Video loop de Temporada 92-93",
+          "url": "/videos/temporada-92-93.webm",
+          "filename": "temporada-92-93.webm",
+          "mimeType": "video/webm",
+          "filesize": 196448,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf5e",
+          "createdAt": "2025-09-08T07:17:30.470Z",
+          "updatedAt": "2025-09-08T07:17:30.470Z",
+          "alt": "Video loop de Salvados — Promo vuelve Salvados",
+          "url": "/videos/promo-salvados-tia.webm",
+          "filename": "promo-salvados-tia.webm",
+          "mimeType": "video/webm",
+          "filesize": 311368,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf67",
+          "createdAt": "2025-09-08T07:17:30.499Z",
+          "updatedAt": "2025-09-08T07:17:30.499Z",
+          "alt": "Video loop de Padre Modelo",
+          "url": "/videos/padre-modelo.webm",
+          "filename": "padre-modelo.webm",
+          "mimeType": "video/webm",
+          "filesize": 282313,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf8b",
+          "createdAt": "2025-09-08T07:17:30.739Z",
+          "updatedAt": "2025-09-08T07:17:30.739Z",
+          "alt": "Video loop de La liga de los hombres extraordinarios",
+          "url": "/videos/laliga-extraordinarios.webm",
+          "filename": "laliga-extraordinarios.webm",
+          "mimeType": "video/webm",
+          "filesize": 361281,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecfc1",
+          "createdAt": "2025-09-08T07:17:30.885Z",
+          "updatedAt": "2025-09-08T07:17:30.885Z",
+          "alt": "Video loop de Amistad",
+          "url": "/videos/amistad.webm",
+          "filename": "amistad.webm",
+          "mimeType": "video/webm",
+          "filesize": 323047,
+          "__v": 0,
+          "_status": "published"
+        },
+        {
+          "_id": "68be830a6fe547332c1ecf28",
+          "createdAt": "2025-09-08T07:17:30.304Z",
+          "updatedAt": "2025-09-08T07:17:30.305Z",
+          "alt": "Video loop de Your Lost Memories",
+          "url": "/videos/your-lost-memories.webm",
+          "filename": "your-lost-memories.webm",
+          "mimeType": "video/webm",
+          "filesize": 204148,
+          "__v": 0,
+          "_status": "published"
+        }
+      ]
+    },
+    "proyectos": {
+      "count": 19,
+      "documents": [
+        {
+          "_id": "68be80c56fe547332c1ecd97",
+          "createdAt": "2025-09-08T07:07:49.013Z",
+          "updatedAt": "2025-09-08T10:44:08.509Z",
+          "titulo": "Sigamos trabajando",
+          "slug": "bankia",
+          "tipo": "Publicidad",
+          "plataforma": "Bankia",
+          "fecha": "2014-01-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2014</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Agencia<br />\n<span>Blua</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Sigamos Trabajando - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecfb8",
+          "año": 2014,
+          "camposPersonalizados": [],
+          "direccionArtistica": [],
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beb3734a9a5f1584033375"
+            }
+          ],
+          "directorFotografia": [],
+          "productoras": [
+            {
+              "nombre": "Blua",
+              "id": "68beb3654a9a5f1584033373"
+            }
+          ],
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecd9d",
+          "createdAt": "2025-09-08T07:07:49.050Z",
+          "updatedAt": "2025-09-08T08:55:30.797Z",
+          "titulo": "Benvinguts a la Familia",
+          "slug": "benvinguts-a-la-familia-tv3",
+          "tipo": "Serie ficción",
+          "plataforma": "TV3",
+          "fecha": "2017-01-04T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://www.youtube.com/watch?v=Bb3uQD21aSY",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2018</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>26 episodios</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Directores<br />\n<span>\nPau Freixas<br />\nPaco Caballero<br />Nely Reguera<br />Alejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nPaco Caballero<br />Pol Cortecans<br />Daniel González<br />Miguel Ibáñez Monroy<br />Ivan Mercadé<br />Eric Navarro<br />Víctor Sala<br />Laia Soler<br />Natalia Durán<br />Pau Freixas<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nGris Jordana<br />\nPol Orpinell\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nArnau Bataller\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nArca Audiovisual<br />\nFilmax<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia negra\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nLa serie empieza con la historia de Àngela (Melanie Olivares), una mujer de 40 años abandonada por su marido Manu (Santi Millán) y con tres hijos a su cargo. Àngela hizo una promesa hace veinte años que tendrá que romper y comerse su orgullo para sacar la cara por sus tres hijos.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Benvinguts a la Familia - Alejandro Marzoa",
+          "metaDescription": "Serie ficción dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecfaf",
+          "año": 2017,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be97c7defbd463916ad2e3"
+            },
+            {
+              "nombre": "Pau Freixas",
+              "id": "68be97b4defbd463916ad2dd"
+            },
+            {
+              "nombre": "Paco Caballero",
+              "id": "68be97badefbd463916ad2df"
+            },
+            {
+              "nombre": "Nely Reguera",
+              "id": "68be97c0defbd463916ad2e1"
+            }
+          ],
+          "duracion": "26 episodios",
+          "genero": "Comedia negra",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Arca Audiovisual",
+              "id": "68be8bd14e4520e63506d6f0"
+            },
+            {
+              "nombre": "Filmax",
+              "id": "68be8bd14e4520e63506d6f1"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Paco Caballero",
+                  "id": "68be9998441fc28d6acae9d2"
+                },
+                {
+                  "valor": "Pol Cortecans",
+                  "id": "68be99a1441fc28d6acae9d4"
+                },
+                {
+                  "valor": "Daniel González",
+                  "id": "68be99b2441fc28d6acae9d8"
+                },
+                {
+                  "valor": "Miguel Ibáñez Monroy",
+                  "id": "68be99b7441fc28d6acae9da"
+                },
+                {
+                  "valor": "Ivan Mercadé",
+                  "id": "68be99bc441fc28d6acae9dc"
+                },
+                {
+                  "valor": "Eric Navarro",
+                  "id": "68be99c1441fc28d6acae9de"
+                },
+                {
+                  "valor": "Víctor Sala",
+                  "id": "68be99c3441fc28d6acae9e0"
+                },
+                {
+                  "valor": "Laia Soler",
+                  "id": "68be99c8441fc28d6acae9e2"
+                },
+                {
+                  "valor": "Natalia Durán",
+                  "id": "68be99cc441fc28d6acae9e4"
+                },
+                {
+                  "valor": "Pau Freixas",
+                  "id": "68be99cf441fc28d6acae9e6"
+                }
+              ],
+              "id": "68be98edbb9eaf8344116e62"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Gris Jordana",
+                  "id": "68be99dc441fc28d6acae9ea"
+                },
+                {
+                  "valor": "Pol Orpinell",
+                  "id": "68be99de441fc28d6acae9ec"
+                }
+              ],
+              "id": "68be99d3441fc28d6acae9e8"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Arnau Bataller",
+                  "id": "68be99eb441fc28d6acae9f0"
+                }
+              ],
+              "id": "68be99e3441fc28d6acae9ee"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sonido": [],
+          "sinopsis": "La serie empieza con la historia de Àngela (Melanie Olivares), una mujer de 40 años abandonada por su marido Manu (Santi Millán) y con tres hijos a su cargo. Àngela hizo una promesa hace veinte años que tendrá que romper y comerse su orgullo para sacar la cara por sus tres hijos.</span>"
+        },
+        {
+          "_id": "68be80c56fe547332c1ecda9",
+          "createdAt": "2025-09-08T07:07:49.100Z",
+          "updatedAt": "2025-09-08T10:47:55.817Z",
+          "titulo": "Real Club Celta de Vigo 2010-2011",
+          "slug": "captacion-abonados-celta-2010",
+          "tipo": "Publicidad",
+          "plataforma": "Boogaloo Films",
+          "fecha": "2010-02-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "https://vimeo.com/14058581",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2010</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>Boogaloo films</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Idea y dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Ayudante de dirección<br />\n<span>\nRafael de los Arcos\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nVictor Rius\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje<br />\n<span>\nIngrid Boixadós\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Real Club Celta de Vigo 2010-2011 - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf9d",
+          "año": 2010,
+          "productoras": [
+            {
+              "nombre": "Boogaloo films",
+              "id": "68be8bd14e4520e63506d6e8"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Idea y dirección",
+              "valores": [
+                {
+                  "valor": "Alejandro Marzoa",
+                  "id": "68beb4034a9a5f158403337f"
+                }
+              ],
+              "id": "68beb3fd4a9a5f158403337d"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Victor Rius",
+                  "id": "68beb41a4a9a5f1584033388"
+                }
+              ],
+              "id": "68beb41a4a9a5f1584033386"
+            },
+            {
+              "etiqueta": "Montaje",
+              "valores": [
+                {
+                  "valor": "Ingrid Boixadós",
+                  "id": "68beb3f24a9a5f158403337b"
+                }
+              ],
+              "id": "68beb3ee4a9a5f1584033379"
+            },
+            {
+              "etiqueta": "Ayudante de dirección",
+              "valores": [
+                {
+                  "valor": "Rafael de los Arcos",
+                  "id": "68beb4244a9a5f158403338b"
+                }
+              ],
+              "id": "68beb41e29a4fc26812acf1a"
+            }
+          ],
+          "direccionArtistica": [],
+          "director": [],
+          "directorFotografia": [],
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdc7",
+          "createdAt": "2025-09-08T07:07:49.208Z",
+          "updatedAt": "2025-09-08T08:04:22.311Z",
+          "titulo": "Macarena el himno de un planeta",
+          "slug": "macarena-el-himno-de-un-planeta-movistar",
+          "tipo": "Serie documental",
+          "plataforma": "Movistar Plus+",
+          "fecha": "2024-05-04T12:00:00.000Z",
+          "categoria": [
+            "series-y-cine",
+            "documental"
+          ],
+          "video": "https://www.youtube.com/watch?v=La6pnvEKfg4",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2024</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>2 episodios</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa<br />\nArantza Diez\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nMovistar Plus+<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nSeries documentales y deportes\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nHan pasado 30 años y el mundo sigue rendido a 'Macarena', un éxito sin precedentes e inter generacional, un fenómeno que fue viral antes de que existieran las redes sociales. Con Los del Río, Antonio Romero y Rafael Ruiz, como conductores de la historia y la participación de músicos, productores o periodistas de todo el mundo, esta serie documental de dos episodios reconstruye, explora y celebra la historia del himno de un planeta.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Macarena el himno de un planeta - Alejandro Marzoa",
+          "metaDescription": "Serie documental dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf70",
+          "año": 2024,
+          "duracion": "2 episodios",
+          "genero": "Series documentales y deportes",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Movistar Plus+",
+              "id": "68be8bd14e4520e63506d6d4"
+            },
+            {
+              "nombre": "</span>",
+              "id": "68be8bd14e4520e63506d6d7"
+            }
+          ],
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be8dc26267413fe8ff9561"
+            },
+            {
+              "nombre": "Arantza Diez",
+              "id": "68be8dcc6267413fe8ff9563"
+            }
+          ],
+          "sinopsis": "Han pasado 30 años y el mundo sigue rendido a 'Macarena', un éxito sin precedentes e inter generacional, un fenómeno que fue viral antes de que existieran las redes sociales. Con Los del Río, Antonio Romero y Rafael Ruiz, como conductores de la historia y la participación de músicos, productores o periodistas de todo el mundo, esta serie documental de dos episodios reconstruye, explora y celebra la historia del himno de un planeta.</span>"
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdf1",
+          "createdAt": "2025-09-08T07:07:49.349Z",
+          "updatedAt": "2025-09-08T10:36:12.481Z",
+          "titulo": "Temporada 92-93",
+          "slug": "temporada-92-93",
+          "tipo": "Cortometraje",
+          "plataforma": "",
+          "fecha": "2007-01-01T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://vimeo.com/7713906",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2007</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>12 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\nAlejandro Marzoa<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nVictor Rius\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sonido<br />\n<span>\nCristian Subirá\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección Artística<br />\n<span>\nLesley Arias\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje<br >\n<span>\nMarta Bonet y Fran Carmona\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nLori Meyers\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nMiguel de Lira<br />\nCarlos Blanco<br />\nMarisa Duaso<br />\nInma Ochoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Producción<br />\n<span>\nBernat Manzano y Gerard Marcó\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nCuando es el día del cumpleaños de tu hijo pequeño, y quedan diez minutos para que se acabe la liga, y tu equipo esta a punto de bajar a segunda… lo único que te queda, es estar pegado al transistor y que alguien que sufre tanto como tú, nunca,…bajo ningún concepto… te abandone.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Temporada 92-93 - Alejandro Marzoa",
+          "metaDescription": "Cortometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf31",
+          "año": 2007,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beb11c40e1335259a61544"
+            }
+          ],
+          "duracion": "12 mins.",
+          "genero": "Comedia",
+          "pais": "España",
+          "productoras": [],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68beb12b40e1335259a61548"
+                },
+                {
+                  "valor": "Alejandro Marzoa",
+                  "id": "68beb12e40e1335259a6154a"
+                }
+              ],
+              "id": "68beb12740e1335259a61546"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Victor Rius",
+                  "id": "68beb13b40e1335259a6154e"
+                }
+              ],
+              "id": "68beb13740e1335259a6154c"
+            },
+            {
+              "etiqueta": "Sonido",
+              "valores": [
+                {
+                  "valor": "Cristian Subirá",
+                  "id": "68beb14540e1335259a61552"
+                }
+              ],
+              "id": "68beb14140e1335259a61550"
+            },
+            {
+              "etiqueta": "Dirección artística",
+              "valores": [
+                {
+                  "valor": "Lesley Arias",
+                  "id": "68beb15540e1335259a61556"
+                }
+              ],
+              "id": "68beb14d40e1335259a61554"
+            },
+            {
+              "etiqueta": "Montaje",
+              "valores": [
+                {
+                  "valor": "Marta Bonet y Fran Carmona",
+                  "id": "68beb16240e1335259a6155a"
+                }
+              ],
+              "id": "68beb15d40e1335259a61558"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Lori Meyers",
+                  "id": "68beb16b40e1335259a6155e"
+                }
+              ],
+              "id": "68beb16540e1335259a6155c"
+            },
+            {
+              "etiqueta": "Reparto",
+              "valores": [
+                {
+                  "valor": "Miguel de Lira",
+                  "id": "68beb17440e1335259a61562"
+                },
+                {
+                  "valor": "Carlos Blanco",
+                  "id": "68beb17640e1335259a61564"
+                },
+                {
+                  "valor": "Marisa Duaso",
+                  "id": "68beb17c40e1335259a61566"
+                },
+                {
+                  "valor": "Inma Ochoa",
+                  "id": "68beb18140e1335259a61568"
+                }
+              ],
+              "id": "68beb16e40e1335259a61560"
+            },
+            {
+              "etiqueta": "Producción",
+              "valores": [
+                {
+                  "valor": "Bernat Manzano y Gerard Marcó",
+                  "id": "68beb19040e1335259a6156c"
+                }
+              ],
+              "id": "68beb18940e1335259a6156a"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "Cuando es el día del cumpleaños de tu hijo pequeño, y quedan diez minutos para que se acabe la liga, y tu equipo esta a punto de bajar a segunda… lo único que te queda, es estar pegado al transistor y que alguien que sufre tanto como tú, nunca,…bajo ningún concepto… te abandone.",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdf7",
+          "createdAt": "2025-09-08T07:07:49.370Z",
+          "updatedAt": "2025-09-08T09:13:24.092Z",
+          "titulo": "Your Lost Memories",
+          "slug": "your-lost-memories",
+          "tipo": "Largometraje",
+          "plataforma": "Boogaloo Films",
+          "fecha": "2012-01-01T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://vimeo.com/58357554",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2013</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>68 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa<br />\nMiguel Ángel Blanca\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\nAlberto Flores<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nSara Fontán<br />\nPau Juliá\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nAlex Sans\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nBoogaloo Films<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nDocumental | Metraje encontrado. Falso documental\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nNostalgia de los recuerdos ajenos. Homemovies perdidas en 8mm. Ordenar la memoria.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Your Lost Memories - Alejandro Marzoa",
+          "metaDescription": "Largometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf28",
+          "año": 2012,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be9dbbd0b70a3e2c181feb"
+            },
+            {
+              "nombre": "Miguel Ángel Blanca",
+              "id": "68be9dc0d0b70a3e2c181fed"
+            }
+          ],
+          "duracion": "68 mins.",
+          "genero": "Documental. Metraje encontrado. Falso documental",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Boogaloo films",
+              "id": "68be8bd14e4520e63506d6b8"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68be9dd3d0b70a3e2c181ff1"
+                },
+                {
+                  "valor": "Alberto Flores",
+                  "id": "68be9dd7d0b70a3e2c181ff3"
+                }
+              ],
+              "id": "68be9dced0b70a3e2c181fef"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Sara Fontán",
+                  "id": "68be9de0d0b70a3e2c181ff7"
+                },
+                {
+                  "valor": "Pau Juliá",
+                  "id": "68be9de1d0b70a3e2c181ff9"
+                }
+              ],
+              "id": "68be9ddcd0b70a3e2c181ff5"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Alex Sans",
+                  "id": "68be9df1d0b70a3e2c181ffd"
+                }
+              ],
+              "id": "68be9decd0b70a3e2c181ffb"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "Nostalgia de los recuerdos ajenos. Homemovies perdidas en 8mm. Ordenar la memoria.</span>",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdb5",
+          "createdAt": "2025-09-08T07:07:49.146Z",
+          "updatedAt": "2025-09-08T08:08:38.670Z",
+          "titulo": "La liga de los hombres extraordinarios",
+          "slug": "la-liga-de-los-hombres-extraordinarios-movistar",
+          "tipo": "Serie Documental",
+          "plataforma": "Movistar Plus+",
+          "fecha": "2022-07-04T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine",
+            "documental"
+          ],
+          "video": "https://www.youtube.com/watch?v=r0Nzg6Nn5Yc",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2022</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>5 episodios</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nMovistar Plus+<br />\nProducciones del K.O<br />\nProducciones del barrio<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nSeries documentales y deportes\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nEn la década de 1990, en una España despreocupada y con ansias de modernidad y enriquecimiento, un grupo de empresarios se apoderan de los principales clubes de fútbol del país. Augusto César Lendoiro, Manuel Ruiz de Lopera, José María Caneda, Joan Gaspart y José María del Nido son los presidentes que protagonizan este relato, unos hombres extraordinariamente populares que consiguen éxitos deportivos impensables para sus clubes. Todos ellos se convierten en auténticos ídolos de masas hasta que los resultados deportivos dejan de acompañar, aparecen los problemas financieros y comienza su declive.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "La liga de los hombres extraordinarios - Alejandro Marzoa",
+          "metaDescription": "Serie Documental dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf8b",
+          "año": 2022,
+          "duracion": "5 episodios",
+          "genero": "Series documentales y deportes",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Movistar Plus+",
+              "id": "68be8bd14e4520e63506d6e0"
+            },
+            {
+              "nombre": "Producciones del K.O",
+              "id": "68be8bd14e4520e63506d6e1"
+            },
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6e2"
+            }
+          ],
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be8ed06267413fe8ff9567"
+            }
+          ],
+          "sinopsis": "En la década de 1990, en una España despreocupada y con ansias de modernidad y enriquecimiento, un grupo de empresarios se apoderan de los principales clubes de fútbol del país. Augusto César Lendoiro, Manuel Ruiz de Lopera, José María Caneda, Joan Gaspart y José María del Nido son los presidentes que protagonizan este relato, unos hombres extraordinariamente populares que consiguen éxitos deportivos impensables para sus clubes. Todos ellos se convierten en auténticos ídolos de masas hasta que los resultados deportivos dejan de acompañar, aparecen los problemas financieros y comienza su declive."
+        },
+        {
+          "_id": "68be80c56fe547332c1ecddf",
+          "createdAt": "2025-09-08T07:07:49.294Z",
+          "updatedAt": "2025-09-08T11:35:35.429Z",
+          "titulo": "Salvados — Promo Emilio Aragón",
+          "slug": "promo-salvados-2020-emilio-aragon-la-sexta",
+          "tipo": "Publicidad",
+          "plataforma": "Producciones del Barrio",
+          "fecha": "2020-01-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "https://vimeo.com/479794083",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2020</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>Producciones del Barrio</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director de fotografía<br />\n<span>\nAlbert Serradó\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sonido<br />\n<span>\nBernat Gras\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección Artística<br />\n<span>\nEsther García\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Salvados — Promo Emilio Aragón - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf4c",
+          "año": 2020,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be919ba53c1ede3f610419"
+            }
+          ],
+          "productoras": [
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6c4"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Director de fotografía",
+              "valores": [
+                {
+                  "valor": "Albert Serradó",
+                  "id": "68bebe2c4f6af142c2f3043c"
+                }
+              ],
+              "id": "68bebe224f6af142c2f3043a"
+            }
+          ],
+          "direccionArtistica": [
+            {
+              "nombre": "Esther García",
+              "id": "68be9185a53c1ede3f610417"
+            }
+          ],
+          "directorFotografia": [],
+          "sonido": [
+            {
+              "nombre": "Bernat Gras",
+              "id": "68be917ea53c1ede3f610415"
+            }
+          ]
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdeb",
+          "createdAt": "2025-09-08T07:07:49.332Z",
+          "updatedAt": "2025-09-08T09:15:28.757Z",
+          "titulo": "Somos Gente Honrada",
+          "slug": "somos-gente-honrada",
+          "tipo": "Largometraje",
+          "plataforma": "Vaca Films",
+          "fecha": "2013-01-01T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://www.youtube.com/watch?v=y4WzgLBYZIo",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2013</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>85 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\nJuan Cruz<br />\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nSergio Moure\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nArnau Valls Colomer\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nMiguel de Lira<br />\nPaco Tous<br />\nManuela Vellés<br />\nUnax Ugalde<br /> \nManuel Lozano<br /> \nMarisol Membrillo<br /> \nAntonio Durán ‘Morris’\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nEl Terrat<br />\nInstitut Català de les Indústries Culturals<br />\nICAA<br />\nPersona Non Grata Pictures<br /> \nTV3<br /> \nTVE<br /> \nVaca Films<br /> \nXunta de Galicia</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nSuso y Manuel, dos padres de familia y amigos de toda la vida, cumplidos los cincuenta años, se quedan sin trabajo. Cuando la situación es ya insostenible, se produce un hecho insólito: un día, mientras están pescando, encuentran un paquete con diez kilos de cocaína.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Somos Gente Honrada - Alejandro Marzoa",
+          "metaDescription": "Largometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf3a",
+          "año": 2013,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be9cedd0b70a3e2c181fc1"
+            }
+          ],
+          "duracion": "85 mins.",
+          "genero": "Comedia",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "El Terrat",
+              "id": "68be8bd14e4520e63506d6bc"
+            },
+            {
+              "nombre": "Institut Català de les Indústries Culturals",
+              "id": "68be8bd14e4520e63506d6bd"
+            },
+            {
+              "nombre": "ICAA",
+              "id": "68be8bd14e4520e63506d6be"
+            },
+            {
+              "nombre": "Persona Non Grata Pictures",
+              "id": "68be8bd14e4520e63506d6bf"
+            },
+            {
+              "nombre": "TV3",
+              "id": "68be9d56d0b70a3e2c181fe3"
+            },
+            {
+              "nombre": "TVE",
+              "id": "68be9d5bd0b70a3e2c181fe5"
+            },
+            {
+              "nombre": "Vaca Films",
+              "id": "68be9d62d0b70a3e2c181fe7"
+            },
+            {
+              "nombre": "Xunta de Galicia",
+              "id": "68be9d66d0b70a3e2c181fe9"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68be9cf8d0b70a3e2c181fc5"
+                },
+                {
+                  "valor": "Juan Cruz",
+                  "id": "68be9cffd0b70a3e2c181fc7"
+                },
+                {
+                  "valor": "Alejandro MArzoa",
+                  "id": "68be9d03d0b70a3e2c181fc9"
+                }
+              ],
+              "id": "68be9cf3d0b70a3e2c181fc3"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Sergio Moure",
+                  "id": "68be9d11d0b70a3e2c181fcd"
+                }
+              ],
+              "id": "68be9d0bd0b70a3e2c181fcb"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Arnau Valls Colomer",
+                  "id": "68be9d20d0b70a3e2c181fd1"
+                }
+              ],
+              "id": "68be9d16d0b70a3e2c181fcf"
+            },
+            {
+              "etiqueta": "Reparto",
+              "valores": [
+                {
+                  "valor": "Miguel de Lira",
+                  "id": "68be9d26d0b70a3e2c181fd5"
+                },
+                {
+                  "valor": "Paco Tous",
+                  "id": "68be9d28d0b70a3e2c181fd7"
+                },
+                {
+                  "valor": "Manuela Vellés",
+                  "id": "68be9d2cd0b70a3e2c181fd9"
+                },
+                {
+                  "valor": "Unax Ugalde",
+                  "id": "68be9d2ed0b70a3e2c181fdb"
+                },
+                {
+                  "valor": "Manuel Lozano",
+                  "id": "68be9d2fd0b70a3e2c181fdd"
+                },
+                {
+                  "valor": "Marisol Membrillo",
+                  "id": "68be9d31d0b70a3e2c181fdf"
+                },
+                {
+                  "valor": "Antonio Durán ‘Morris’",
+                  "id": "68be9d33d0b70a3e2c181fe1"
+                }
+              ],
+              "id": "68be9d23d0b70a3e2c181fd3"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "Suso y Manuel, dos padres de familia y amigos de toda la vida, cumplidos los cincuenta años, se quedan sin trabajo. Cuando la situación es ya insostenible, se produce un hecho insólito: un día, mientras están pescando, encuentran un paquete con diez kilos de cocaína.</span>",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecda3",
+          "createdAt": "2025-09-08T07:07:49.078Z",
+          "updatedAt": "2025-09-08T10:50:35.531Z",
+          "titulo": "Real Club Celta de Vigo 2009-2010",
+          "slug": "captacion-abonados-celta-2009",
+          "tipo": "Publicidad",
+          "plataforma": "Alen Filmes",
+          "fecha": "2010-01-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "https://vimeo.com/7791900",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2009</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>Alen Filmes</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Idea y dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Ayudante de dirección<br />\n<span>\nJorge Hurtado\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nIñigo Zubicaray\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección Artística<br />\n<span>\nLesley Arias\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Mezclas<br />\n<span>\nSonidor\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Voz en off<br />\n<span>\nCoté\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Etalonaje<br />\n<span>\nMolinare\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje<br />\n<span>\nIngrid Boixadós\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Real Club Celta de Vigo 2009-2010 - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecfa6",
+          "año": 2010,
+          "productoras": [
+            {
+              "nombre": "Alen Filmes",
+              "id": "68be8bd14e4520e63506d6ec"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Idea y dirección",
+              "valores": [
+                {
+                  "valor": "Alejandro Marzoa",
+                  "id": "68beb48b40e1335259a61572"
+                }
+              ],
+              "id": "68beb48840e1335259a61570"
+            },
+            {
+              "etiqueta": "Ayudante de dirección",
+              "valores": [
+                {
+                  "valor": "Jorge Hurtado",
+                  "id": "68beb4b540e1335259a61576"
+                }
+              ],
+              "id": "68beb4af40e1335259a61574"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Iñigo Zubicaray",
+                  "id": "68beb4bd40e1335259a6157a"
+                }
+              ],
+              "id": "68beb4b940e1335259a61578"
+            },
+            {
+              "etiqueta": "Dirección artística",
+              "valores": [
+                {
+                  "valor": "Lesley Arias",
+                  "id": "68beb4d140e1335259a61580"
+                }
+              ],
+              "id": "68beb4bf40e1335259a6157c"
+            },
+            {
+              "etiqueta": "Mezclas",
+              "valores": [
+                {
+                  "valor": "Sonidor",
+                  "id": "68beb4dc40e1335259a61582"
+                }
+              ],
+              "id": "68beb4c840e1335259a6157e"
+            },
+            {
+              "etiqueta": "Voz en off",
+              "valores": [
+                {
+                  "valor": "Coté",
+                  "id": "68beb4e640e1335259a61586"
+                }
+              ],
+              "id": "68beb4e240e1335259a61584"
+            },
+            {
+              "etiqueta": "Etalonaje",
+              "valores": [
+                {
+                  "valor": "Molinare",
+                  "id": "68beb4ef40e1335259a6158a"
+                }
+              ],
+              "id": "68beb4ea40e1335259a61588"
+            },
+            {
+              "etiqueta": "Montaje",
+              "valores": [
+                {
+                  "valor": "Ingrid Boixadós",
+                  "id": "68beb4f840e1335259a6158e"
+                }
+              ],
+              "id": "68beb4f140e1335259a6158c"
+            }
+          ],
+          "direccionArtistica": [],
+          "director": [],
+          "directorFotografia": [],
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdbb",
+          "createdAt": "2025-09-08T07:07:49.169Z",
+          "updatedAt": "2025-09-08T11:13:51.540Z",
+          "titulo": "LaLiga: Más alla del gol",
+          "slug": "laliga-mas-alla-del-gol-netflix",
+          "tipo": "Serie documental",
+          "plataforma": "Netflix",
+          "fecha": "2024-06-03T12:00:00.000Z",
+          "categoria": [
+            "series-y-cine",
+            "documental"
+          ],
+          "video": "https://www.youtube.com/watch?v=nBx-fFcj8Wc",
+          "contenido": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "text": "Año<br />\n<span>2024</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Duración<br />\n<span>8 episodios</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "País<br />\n<span>España</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Productora<br />\n<span>\nLaLiga<br />\nMorena Films</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Género<br />\n<span>\nSeries documentales y deportes\n</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Sinopsis<br />\n<span>\nDesde las gloriosas victorias hasta las derrotas más devastadoras, esta apasionante serie documental sobre LaLiga ofrece acceso exclusivo a los entresijos del fútbol español.\n</span>",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "type": "root",
+              "version": 1
+            }
+          },
+          "destacado": false,
+          "metaTitle": "LaLiga: Más alla del gol - Alejandro Marzoa",
+          "metaDescription": "Serie documental dirigida por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf82",
+          "año": 2024,
+          "director": [],
+          "duracion": "8 episodios",
+          "genero": "Series documentales y deportes",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "La Liga",
+              "id": "68be8bd14e4520e63506d6dc"
+            },
+            {
+              "nombre": "Morena Films",
+              "id": "68be8bd14e4520e63506d6dd"
+            }
+          ],
+          "sinopsis": "Desde las gloriosas victorias hasta las derrotas más devastadoras, esta apasionante serie documental sobre LaLiga ofrece acceso exclusivo a los entresijos del fútbol español.",
+          "camposPersonalizados": [],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdc1",
+          "createdAt": "2025-09-08T07:07:49.188Z",
+          "updatedAt": "2025-09-08T08:06:14.587Z",
+          "titulo": "Lo de Évole — Gabriel Rufián",
+          "slug": "lo-de-evole-gabriel-rufian-lasexta",
+          "tipo": "Programa TV",
+          "plataforma": "laSexta",
+          "fecha": "2025-01-04T12:00:00.000Z",
+          "categoria": [
+            "documental"
+          ],
+          "video": "",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2025</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>2 episodios</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nProducciones del Barrio<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nEntrevista\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nÉvole pasa un día con Rufián en el Delta del Ebro para descubrir el lado más personal del independentista catalán, repasar su trayectoria política y analizar la situación actual. Recuerda cómo fue su llegada a ERC, habla de las ambiciones que tenía al llegar al Congreso, de sus intervenciones más provocadoras y de su ego.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Lo de Évole — Gabriel Rufián - Alejandro Marzoa",
+          "metaDescription": "Programa TV dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf79",
+          "año": 2024,
+          "duracion": "2 episodios",
+          "genero": "Entrevista",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6d8"
+            }
+          ],
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be8e596267413fe8ff9565"
+            }
+          ],
+          "sinopsis": "Évole pasa un día con Rufián en el Delta del Ebro para descubrir el lado más personal del independentista catalán, repasar su trayectoria política y analizar la situación actual. Recuerda cómo fue su llegada a ERC, habla de las ambiciones que tenía al llegar al Congreso, de sus intervenciones más provocadoras y de su ego."
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdcd",
+          "createdAt": "2025-09-08T07:07:49.237Z",
+          "updatedAt": "2025-09-08T10:32:55.687Z",
+          "titulo": "Padre Modelo",
+          "slug": "padre-modelo",
+          "tipo": "Cortometraje",
+          "plataforma": "Jet Films",
+          "fecha": "2009-01-01T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://vimeo.com/7738634",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2009</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>14 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Fotografía<br />\n<span>\nVictor Rius\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Producción<br />\n<span>\nVerónica Vila-San-Juan y Manuel Egea\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nPau Juliá\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje<br />\n<span>\nMarta Bonet\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nMiguel de Lira<br />\nRoger Princeps<br />\nAngels Bassas<br />\nFerrán Rull\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nJet Films S.A. 2009\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nNo hay nada más bonito que tu padre te vaya a recoger a la salida del cole… Eso, si tu padre fuera un padre normal y tú no fueras el marginado de la clase.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Padre Modelo - Alejandro Marzoa",
+          "metaDescription": "Cortometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf67",
+          "año": 2009,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beb05140e1335259a61524"
+            }
+          ],
+          "duracion": "14 mins.",
+          "genero": "Comedia",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Jet Films",
+              "id": "68be8bd14e4520e63506d6d0"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68beb05b40e1335259a61528"
+                }
+              ],
+              "id": "68beb05740e1335259a61526"
+            },
+            {
+              "etiqueta": "Fotografía",
+              "valores": [
+                {
+                  "valor": "Victor Rius",
+                  "id": "68beb06c40e1335259a6152e"
+                }
+              ],
+              "id": "68beb06140e1335259a6152a"
+            },
+            {
+              "etiqueta": "Produccón",
+              "valores": [
+                {
+                  "valor": "Verónica Vila-San-Juan y Manuel Egea",
+                  "id": "68beb07b40e1335259a61530"
+                }
+              ],
+              "id": "68beb06940e1335259a6152c"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Pau Juliá",
+                  "id": "68beb09640e1335259a61534"
+                }
+              ],
+              "id": "68beb09240e1335259a61532"
+            },
+            {
+              "etiqueta": "Montaje",
+              "valores": [
+                {
+                  "valor": "Marta Bonet",
+                  "id": "68beb0a240e1335259a61538"
+                }
+              ],
+              "id": "68beb09c40e1335259a61536"
+            },
+            {
+              "etiqueta": "Reparto",
+              "valores": [
+                {
+                  "valor": "Miguel de Lira",
+                  "id": "68beb0a840e1335259a6153c"
+                },
+                {
+                  "valor": "Roger Princeps",
+                  "id": "68beb0ad40e1335259a6153e"
+                },
+                {
+                  "valor": "Angels Bassas",
+                  "id": "68beb0b040e1335259a61540"
+                },
+                {
+                  "valor": "Ferrán Rull",
+                  "id": "68beb0b540e1335259a61542"
+                }
+              ],
+              "id": "68beb0a440e1335259a6153a"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "No hay nada más bonito que tu padre te vaya a recoger a la salida del cole… Eso, si tu padre fuera un padre normal y tú no fueras el marginado de la clase.",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecde5",
+          "createdAt": "2025-09-08T07:07:49.311Z",
+          "updatedAt": "2025-09-08T08:10:31.955Z",
+          "titulo": "Salvados — El valor del fútbol",
+          "slug": "salvados-valor-del-futbol",
+          "tipo": "Programa TV",
+          "plataforma": "laSexta",
+          "fecha": "2021-01-04T12:00:00.000Z",
+          "categoria": [
+            "documental"
+          ],
+          "video": "",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2021</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>2 episodios</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nProducciones del Barrio<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nEntrevista\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\n A raíz de la polémica suscitada por el proyecto de la Superliga, Gonzo y el equipo de ‘Salvados’ abordan las consecuencias de la transformación del fútbol, que ha pasado en pocas décadas de deporte de masas a negocio multimillonario. Para analizar en profundidad este proceso, el espacio plantea cuestiones claves como: ¿El dinero ha desvirtuado el deporte? ¿Los futbolistas son deportistas o productos? ¿La Superliga podría acabar con el fútbol modesto? El presidente de La Liga, Javier Tebas, considera que Florentino Pérez, impulsor de la Superliga, “está descentrado” y que no dice la verdad cuando afirma que los clubes están arruinados. \n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Salvados — El valor del fútbol - Alejandro Marzoa",
+          "metaDescription": "Programa TV dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf43",
+          "año": 2022,
+          "duracion": "2 episodios",
+          "genero": "Entrevista",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6c0"
+            }
+          ],
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68be8f5a6267413fe8ff9569"
+            }
+          ],
+          "sinopsis": "A raíz de la polémica suscitada por el proyecto de la Superliga, Gonzo y el equipo de ‘Salvados’ abordan las consecuencias de la transformación del fútbol, que ha pasado en pocas décadas de deporte de masas a negocio multimillonario. Para analizar en profundidad este proceso, el espacio plantea cuestiones claves como: ¿El dinero ha desvirtuado el deporte? ¿Los futbolistas son deportistas o productos? ¿La Superliga podría acabar con el fútbol modesto? El presidente de La Liga, Javier Tebas, considera que Florentino Pérez, impulsor de la Superliga, “está descentrado” y que no dice la verdad cuando afirma que los clubes están arruinados."
+        },
+        {
+          "_id": "68be80c46fe547332c1ecd91",
+          "createdAt": "2025-09-08T07:07:48.978Z",
+          "updatedAt": "2025-09-08T10:19:18.228Z",
+          "titulo": "Amistad",
+          "slug": "amistad",
+          "tipo": "Cortometraje",
+          "plataforma": "Boogaloo Films",
+          "fecha": "2010-01-02T00:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://vimeo.com/14997523",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2009</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>16 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\nAlejandro Marzoa<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Producción<br />\n<span>\nBernat Manzano y Lluis Rivera\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director de fotografía<br />\n<span>\nVictor Rius\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director de producción<br />\n<span>\nJosep Mª Rovira\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Diseño de sonido<br />\n<span>\nMarc Bech\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección de arte<br />\n<span>\nLesley Arias\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje y postproducción<br />\n<span>\nIngrid Boixadós\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Maquillaje<br />\n<span>\nSilvia Fernández\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Vestuario<br />\n<span>\nFer DeCartaya\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Música<br />\n<span>\nSara Fontán<br />\nPau Juliá\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nLeticia Dolera<br />\nGorka Lasaosa<br />\nDavid Medina\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nBoogaloo Films\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nCarlos Blanco<br />\nMiguel de Lira<br />\nOscar Molina<br />\nXúlio Abonjo\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nCuando los amigos salen de copas los problemas se olvidan.\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Amistad - Alejandro Marzoa",
+          "metaDescription": "Cortometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecfc1",
+          "año": 2010,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beac598bc4a6b818b21bc1"
+            }
+          ],
+          "duracion": "16 mins.",
+          "genero": "Comedia",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Boogaloo films",
+              "id": "68bead838bc4a6b818b21bf3"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68beac668bc4a6b818b21bc5"
+                },
+                {
+                  "valor": "Alejandro Marzoa",
+                  "id": "68beac968bc4a6b818b21bc7"
+                }
+              ],
+              "id": "68beac5f8bc4a6b818b21bc3"
+            },
+            {
+              "etiqueta": "Producción",
+              "valores": [
+                {
+                  "valor": "Bernat Manzano y Lluis Rivera",
+                  "id": "68beacba8bc4a6b818b21bcb"
+                }
+              ],
+              "id": "68beacb48bc4a6b818b21bc9"
+            },
+            {
+              "etiqueta": "Director de fotografía",
+              "valores": [
+                {
+                  "valor": "Victor Rius",
+                  "id": "68beaccc8bc4a6b818b21bcf"
+                }
+              ],
+              "id": "68beacc38bc4a6b818b21bcd"
+            },
+            {
+              "etiqueta": "Director de producción",
+              "valores": [
+                {
+                  "valor": "Josep Mª Rovira",
+                  "id": "68beacd98bc4a6b818b21bd3"
+                }
+              ],
+              "id": "68beacd48bc4a6b818b21bd1"
+            },
+            {
+              "etiqueta": "Diseño de sonido",
+              "valores": [
+                {
+                  "valor": "Marc Bech",
+                  "id": "68beace58bc4a6b818b21bd7"
+                }
+              ],
+              "id": "68beacdd8bc4a6b818b21bd5"
+            },
+            {
+              "etiqueta": "Dirección de arte",
+              "valores": [
+                {
+                  "valor": "Lesley Arias",
+                  "id": "68beacee8bc4a6b818b21bdb"
+                }
+              ],
+              "id": "68beace78bc4a6b818b21bd9"
+            },
+            {
+              "etiqueta": "Montaje y postproducción",
+              "valores": [
+                {
+                  "valor": "Ingrid Boixadós",
+                  "id": "68beacfd8bc4a6b818b21bdf"
+                }
+              ],
+              "id": "68beacf48bc4a6b818b21bdd"
+            },
+            {
+              "etiqueta": "Maquillaje",
+              "valores": [
+                {
+                  "valor": "Silvia Fernández",
+                  "id": "68bead058bc4a6b818b21be3"
+                }
+              ],
+              "id": "68bead008bc4a6b818b21be1"
+            },
+            {
+              "etiqueta": "Vestuario",
+              "valores": [
+                {
+                  "valor": "Fer DeCartaya",
+                  "id": "68bead478bc4a6b818b21be7"
+                }
+              ],
+              "id": "68bead0b8bc4a6b818b21be5"
+            },
+            {
+              "etiqueta": "Música",
+              "valores": [
+                {
+                  "valor": "Sara Fontán",
+                  "id": "68bead568bc4a6b818b21beb"
+                },
+                {
+                  "valor": "Pau Juliá",
+                  "id": "68bead5b8bc4a6b818b21bed"
+                }
+              ],
+              "id": "68bead4f8bc4a6b818b21be9"
+            },
+            {
+              "etiqueta": "Reparto",
+              "valores": [
+                {
+                  "valor": "Carlos Blanco",
+                  "id": "68bead768bc4a6b818b21bf1"
+                },
+                {
+                  "valor": "Miguel de Lira",
+                  "id": "68bead8b8bc4a6b818b21bf5"
+                },
+                {
+                  "valor": "Oscar Molina",
+                  "id": "68bead938bc4a6b818b21bf7"
+                },
+                {
+                  "valor": "Xúlio Abonjo",
+                  "id": "68bead978bc4a6b818b21bf9"
+                }
+              ],
+              "id": "68bead618bc4a6b818b21bef"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "Cuando los amigos salen de copas los problemas se olvidan.",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdaf",
+          "createdAt": "2025-09-08T07:07:49.125Z",
+          "updatedAt": "2025-09-08T10:24:51.454Z",
+          "titulo": "Cucharada",
+          "slug": "cucharada",
+          "tipo": "Cortometraje",
+          "plataforma": "Boogaloo Films",
+          "fecha": "2009-01-01T12:00:00.000Z",
+          "categoria": [
+            "series-y-cine"
+          ],
+          "video": "https://vimeo.com/11356822",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2009</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Duración<br />\n<span>4 min.</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "País<br />\n<span>España</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Guión<br />\n<span>\nMiguel Ángel Blanca<br />\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Cámara<br />\n<span>\nAndalu Vila-San-Juan\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sonido<br />\n<span>\nMarc Bech\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Montaje<br />\n<span>\nPau Luzón\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Maquillaje<br />\n<span>\nSilvia Fernández\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Vestuario<br />\n<span>\nFer DeCartaya\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Reparto<br />\n<span>\nLeticia Dolera<br />\nGorka Lasaosa<br />\nDavid Medina\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>\nBoogaloo Films\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Género<br />\n<span>\nComedia\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sinopsis<br />\n<span>\nSanti y Julia se disponen a comprar un piso, pero de repente a ella le surge una duda... \n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Cucharada - Alejandro Marzoa",
+          "metaDescription": "Cortometraje dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf94",
+          "año": 2010,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beade78bc4a6b818b21bfb"
+            }
+          ],
+          "duracion": "4 mins",
+          "genero": "Comedia",
+          "pais": "España",
+          "productoras": [
+            {
+              "nombre": "Boogaloo films",
+              "id": "68be8bd14e4520e63506d6e4"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Guión",
+              "valores": [
+                {
+                  "valor": "Miguel Ángel Blanca",
+                  "id": "68beadf88bc4a6b818b21bff"
+                }
+              ],
+              "id": "68beadf28bc4a6b818b21bfd"
+            },
+            {
+              "etiqueta": "Cámara",
+              "valores": [
+                {
+                  "valor": "Andalu Vila-San-Juan",
+                  "id": "68beae028bc4a6b818b21c03"
+                }
+              ],
+              "id": "68beadfc8bc4a6b818b21c01"
+            },
+            {
+              "etiqueta": "Sonido",
+              "valores": [
+                {
+                  "valor": "Marc Bech",
+                  "id": "68beae0c8bc4a6b818b21c07"
+                }
+              ],
+              "id": "68beae088bc4a6b818b21c05"
+            },
+            {
+              "etiqueta": "Montaje",
+              "valores": [
+                {
+                  "valor": "Pau Luzón",
+                  "id": "68beae158bc4a6b818b21c0b"
+                }
+              ],
+              "id": "68beae108bc4a6b818b21c09"
+            },
+            {
+              "etiqueta": "Maquillaje",
+              "valores": [
+                {
+                  "valor": "Silvia Fernández",
+                  "id": "68beae218bc4a6b818b21c0f"
+                }
+              ],
+              "id": "68beae1c8bc4a6b818b21c0d"
+            },
+            {
+              "etiqueta": "Vestuario",
+              "valores": [
+                {
+                  "valor": "Fer DeCartaya",
+                  "id": "68beae338bc4a6b818b21c13"
+                }
+              ],
+              "id": "68beae2f8bc4a6b818b21c11"
+            },
+            {
+              "etiqueta": "Reparto",
+              "valores": [
+                {
+                  "valor": "Leticia Dolera",
+                  "id": "68beae4a8bc4a6b818b21c17"
+                },
+                {
+                  "valor": "Gorka Lasaosa",
+                  "id": "68beae4e8bc4a6b818b21c19"
+                },
+                {
+                  "valor": "David Medina",
+                  "id": "68beae558bc4a6b818b21c1b"
+                }
+              ],
+              "id": "68beae468bc4a6b818b21c15"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sinopsis": "Santi y Julia se disponen a comprar un piso, pero de repente a ella le surge una duda... ",
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdd3",
+          "createdAt": "2025-09-08T07:07:49.257Z",
+          "updatedAt": "2025-09-08T10:41:50.009Z",
+          "titulo": "Salvados — Promo vuelve Salvados",
+          "slug": "promo-salvados-2019-impuestos-gonzo",
+          "tipo": "Publicidad",
+          "plataforma": "Producciones del Barrio",
+          "fecha": "2019-01-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "https://vimeo.com/388957256",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2019</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>Producciones del Barrio</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director de fotografía<br />\n<span>\nToni Vidal\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sonido<br />\n<span>\nDavid Mata\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección Artística<br />\n<span>\nEsther García\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Casting<br />\n<span>\nReichel Delgado\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Salvados — Promo vuelve Salvados - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf5e",
+          "año": 2019,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beb2a64a9a5f1584033361"
+            }
+          ],
+          "productoras": [
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6cc"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Director de fotografía",
+              "valores": [
+                {
+                  "valor": "Toni Vidal",
+                  "id": "68beb2b44a9a5f1584033365"
+                }
+              ],
+              "id": "68beb2ae4a9a5f1584033363"
+            },
+            {
+              "etiqueta": "Sonido",
+              "valores": [
+                {
+                  "valor": "David Mata",
+                  "id": "68beb2c04a9a5f1584033369"
+                }
+              ],
+              "id": "68beb2bc4a9a5f1584033367"
+            },
+            {
+              "etiqueta": "Dirección artística",
+              "valores": [
+                {
+                  "valor": "Esther García",
+                  "id": "68beb2cf4a9a5f158403336d"
+                }
+              ],
+              "id": "68beb2c44a9a5f158403336b"
+            },
+            {
+              "etiqueta": "Casting",
+              "valores": [
+                {
+                  "valor": "Reichel Delgado",
+                  "id": "68beb2d84a9a5f1584033371"
+                }
+              ],
+              "id": "68beb2d44a9a5f158403336f"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sonido": []
+        },
+        {
+          "_id": "68be80c56fe547332c1ecdd9",
+          "createdAt": "2025-09-08T07:07:49.274Z",
+          "updatedAt": "2025-09-08T10:40:09.633Z",
+          "titulo": "Salvados — Promo vuelve Salvados",
+          "slug": "promo-salvados-2019-tren-gonzo",
+          "tipo": "Publicidad",
+          "plataforma": "Producciones del Barrio",
+          "fecha": "2019-02-04T00:00:00.000Z",
+          "categoria": [
+            "publicidad"
+          ],
+          "video": "https://vimeo.com/388957232",
+          "contenido": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Año<br />\n<span>2019</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Productora<br />\n<span>Producciones del Barrio</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección<br />\n<span>\nAlejandro Marzoa\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Director de fotografía<br />\n<span>\nToni Vidal\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Sonido<br />\n<span>\nDavid Mata\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Dirección Artística<br />\n<span>\nEsther García\n</span>"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Casting<br />\n<span>\nReichel Delgado\n</span>"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "destacado": false,
+          "metaTitle": "Salvados — Promo vuelve Salvados - Alejandro Marzoa",
+          "metaDescription": "Publicidad dirigido por Alejandro Marzoa",
+          "__v": 0,
+          "videoloop": "68be830a6fe547332c1ecf55",
+          "año": 2019,
+          "director": [
+            {
+              "nombre": "Alejandro Marzoa",
+              "id": "68beb23941241cfaab4c4b10"
+            }
+          ],
+          "productoras": [
+            {
+              "nombre": "Producciones del barrio",
+              "id": "68be8bd14e4520e63506d6c8"
+            }
+          ],
+          "camposPersonalizados": [
+            {
+              "etiqueta": "Director de fotografía",
+              "valores": [
+                {
+                  "valor": "Toni Vidal",
+                  "id": "68beb25241241cfaab4c4b14"
+                }
+              ],
+              "id": "68beb24a41241cfaab4c4b12"
+            },
+            {
+              "etiqueta": "Sonido",
+              "valores": [
+                {
+                  "valor": "David Mata",
+                  "id": "68beb27341241cfaab4c4b18"
+                }
+              ],
+              "id": "68beb26941241cfaab4c4b16"
+            },
+            {
+              "etiqueta": "Dirección artística",
+              "valores": [
+                {
+                  "valor": "Esther García",
+                  "id": "68beb27e41241cfaab4c4b1c"
+                }
+              ],
+              "id": "68beb27841241cfaab4c4b1a"
+            },
+            {
+              "etiqueta": "Casting",
+              "valores": [
+                {
+                  "valor": "Reichel Delgado",
+                  "id": "68beb28741241cfaab4c4b20"
+                }
+              ],
+              "id": "68beb28341241cfaab4c4b1e"
+            }
+          ],
+          "direccionArtistica": [],
+          "directorFotografia": [],
+          "sonido": []
+        },
+        {
+          "_id": "68cbf0736d46b687fb91d313",
+          "createdAt": "2025-09-18T11:43:47.377Z",
+          "updatedAt": "2025-09-18T11:43:47.377Z",
+          "titulo": "Salvados - Más allá de Madrid",
+          "slug": "salvados-mas-alla-de-madrid",
+          "tipo": "Programa TV",
+          "plataforma": "laSexta",
+          "fecha": "2019-09-18T12:00:00.000Z",
+          "categoria": [
+            "documental"
+          ],
+          "director": [],
+          "camposPersonalizados": [],
+          "productoras": [],
+          "directorFotografia": [],
+          "sonido": [],
+          "direccionArtistica": [],
+          "destacado": false,
+          "metaTitle": "Salvados - Más allá de Madrid - Alejandro Marzoa",
+          "metaDescription": "Programa TV dirigido por Alejandro Marzoa para laSexta",
+          "meta": {},
+          "__v": 0
+        }
+      ]
+    },
+    "paginas": {
+      "count": 2,
+      "documents": [
+        {
+          "_id": "68beb7b08d8c09f3213fa948",
+          "createdAt": "2025-09-08T11:02:08.500Z",
+          "updatedAt": "2025-09-08T11:02:30.372Z",
+          "titulo": "Sobre mi",
+          "slug": "sobre-mi",
+          "contenido": {
+            "root": {
+              "children": [
+                {
+                  "children": [],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Nace en Vigo en el año 1979 y se traslada a Barcelona en el año 2001 donde se gradúa en la Escuela de Cine y Audiovisuales de Catalunya (ESCAC) en el año 2006. Su proyecto de final de carrera fue el cortometraje Temporada 92-93, galardonado con 47 premios en diferentes festivales entre ellos el Premio Canal+ Alcine 2006. En su etapa como cortometrajista (Padre Modelo, Amistad, Cucharada) consigue más de 80 premios en numerosos festivales lo que le lleva a rodar su primer largo.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Ficción",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Somos Gente Honrada (2013) Vaca Films y El Terrat (TVE y TV3), estrenada en la Sección Oficial de la 16ª edición del Festival de Málaga y ganadora de 6 Premios Mestre Mateo (2014) entre ellos Mejor película y mejor dirección.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Series",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director de Benvinguts a la Familia (TV3, Filmax y Arca Audiovisual) durante 2 temporadas (7 capítulos). 2017/2018.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Documental",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director de La Liga de los Hombres Extraordinarios (Movistar+, Producciones del Barrio y Producciones del K.O). 2022.",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director de Macarena: el himno de un planeta (Movistar +, Producciones del Barrio y Sony). 2024.",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Director de La Liga: Más allá del gol (Netflix, Morena films y La Liga). 2024.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Realizador TV",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Salvados de La Sexta (Producciones del Barrio) donde realiza un total de 16 programas entre 2019 y 2021.",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Lo de Évole La Sexta (Producciones del Barrio) 2025.",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Docente y tutor de proyectos ESCAC entre 2009 y 2019.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "start",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "fechaActualizacion": "2025-09-08T11:02:30.372Z",
+          "metaTitle": "Sobre mi - Alejandro Marzoa",
+          "__v": 0
+        },
+        {
+          "_id": "68beb7ef8d8c09f3213fa9ad",
+          "createdAt": "2025-09-08T11:03:11.189Z",
+          "updatedAt": "2025-09-08T11:03:11.189Z",
+          "titulo": "Contacto",
+          "slug": "contacto",
+          "contenido": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Puedes contactar conmigo a través de ",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "mail@alejandromarzoa.com",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "link",
+                      "version": 3,
+                      "fields": {
+                        "linkType": "custom",
+                        "newTab": false,
+                        "url": "mailto:mail@alejandromarzoa.com"
+                      },
+                      "id": "68beb7ebb8cbf31a8ef7ad22"
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "fechaActualizacion": "2025-09-08T11:03:11.184Z",
+          "metaTitle": "Contacto - Alejandro Marzoa",
+          "__v": 0
+        }
+      ]
+    },
+    "users": {
+      "count": 1,
+      "documents": [
+        {
+          "_id": "68d0545286c22488dc5e73f6",
+          "createdAt": "2025-09-21T19:38:58.295Z",
+          "updatedAt": "2025-09-21T19:40:14.157Z",
+          "email": "david@davidmedina.es",
+          "salt": "a51ad7aae82624fba419b783b03cec9bd844a22c09a799e16eeea2dd20b8d7d6",
+          "hash": "27df0b84b622148dd95ad86e145b51f7f1eb637255153cad485b5f9d58f601434aa9b439e61656954141c247d86f6304ba91533dcd6a5efbb6525af9c1774bee3eeefec0a5d339ed1872c4f0e78ced732a34c2f14bbdebc0e9e14f16758fd469efa96b94e5c7027f13777a88f58df5dc4b93c3c2f2eb43d309cf7ec202c85b0b6ca8c719708e82ca59b419f002c2c9f7c3e4befc8babbf30bd56cd10e76b12a7af718e4c15204b624047a7d5c0f6c6476daa9e54a122cd2fda12a94fd07426f2fc4bddb9992122a0823851f8a7f778770e9f25d1c8d3143d1ff87e166804ed38f842f4335be93477a95f76a49f01a3134395412c565e649e67a001ff6072166c6fe4e839df558810ac2cef801564b51c326049c0982f7d30644c96ef796b5c81fef4aae2b949548ca590adcdd877df86adb969b3b0bf29fbc742729275825e05f600a229e41edfd66f44cc46fab879c3ad8105eb80186adf82de0e42a997b70293ba4627b935f8f02cb21921570762b29fc7e6ea18c1a4319e9c2ddc038915dd972bb5b838cecd2660e0ecd983d8b37ed53bb79319c65be38e7e4709a8bddfa263325c135fdfd87137660817af9b5bded34d9fb292cace36f2bf5f354829ef70c0acf5b097c75b3f43583c167953329aaf88bba5a12e304b51aa9bf6dca02779bf9e9e3b20e09867fb4b2fc074182126fe5a58da853711c39fb1a9d8754c9209",
+          "loginAttempts": 2,
+          "__v": 0,
+          "sessions": [
+            {
+              "id": "5e31c597-5b6f-448d-9ed3-22067469e7d7",
+              "createdAt": "2025-09-21T19:38:58.488Z",
+              "expiresAt": "2025-09-21T21:38:58.488Z"
+            }
+          ]
+        }
+      ]
+    },
+    "payload-migrations": {
+      "count": 0,
+      "documents": []
+    },
+    "payload-locked-documents": {
+      "count": 0,
+      "documents": []
+    }
+  }
+}
