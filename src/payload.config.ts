@@ -3,6 +3,7 @@ import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { payloadCloudPlugin } from '@payloadcms/payload-cloud'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { seoPlugin } from '@payloadcms/plugin-seo'
+// import { nodemailerAdapter } from '@payloadcms/email-nodemailer'
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
@@ -35,6 +36,7 @@ export default buildConfig({
     // ej: mongodb+srv://user:pass@cluster.mongodb.net/alejandromarzoa?retryWrites=true&w=majority&appName=Cluster0
     url: process.env.MONGODB_URI || '',
   }),
+
   sharp,
       plugins: [
         payloadCloudPlugin(),

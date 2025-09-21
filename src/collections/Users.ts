@@ -5,9 +5,27 @@ export const Users: CollectionConfig = {
   admin: {
     useAsTitle: 'email',
   },
-  auth: true,
+  auth: {
+    cookies: {
+      sameSite: 'Lax',
+      secure: false,
+    },
+    lockTime: 600000, // 10 minutos
+    maxLoginAttempts: 5,
+    tokenExpiration: 7200, // 2 horas
+  },
   fields: [
-    // Email added by default
-    // Add more fields as needed
+    {
+      name: 'email',
+      type: 'email',
+      required: true,
+      unique: true,
+    },
+    {
+      name: 'password',
+      type: 'text',
+      required: true,
+      minLength: 6,
+    },
   ],
 }

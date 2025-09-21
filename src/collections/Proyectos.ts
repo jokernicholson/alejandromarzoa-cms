@@ -2,32 +2,17 @@ import type { CollectionConfig } from 'payload'
 
 export const Proyectos: CollectionConfig = {
   slug: 'proyectos',
-  versions: {
-    drafts: {
-      autosave: {
-        interval: 100, // We set this interval for optimal performance for the demo
-      },
-    },
-  },
   admin: {
     useAsTitle: 'titulo',
     description: 'Gestiona los proyectos del portfolio',
-    defaultColumns: ['titulo', 'tipo', 'plataforma', 'fecha', 'categoria', '_status'],
+    defaultColumns: ['titulo', 'tipo', 'plataforma', 'fecha', 'categoria'],
     group: 'Contenido',
   },
   access: {
-    read: ({ req }) => {
-      // Para usuarios autenticados, mostrar todos los documentos
-      if (req.user) {
-        return true;
-      }
-      // Para usuarios no autenticados, solo mostrar documentos publicados
-      return {
-        _status: {
-          equals: 'published',
-        },
-      };
-    },
+    read: () => true, // Lectura pública - visitantes pueden ver los proyectos
+    create: ({ req }) => !!req.user, // Solo usuarios autenticados pueden crear
+    update: ({ req }) => !!req.user, // Solo usuarios autenticados pueden editar
+    delete: ({ req }) => !!req.user, // Solo usuarios autenticados pueden eliminar
   },
   fields: [
     {
