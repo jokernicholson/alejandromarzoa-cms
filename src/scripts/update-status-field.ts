@@ -1,22 +1,22 @@
 #!/usr/bin/env tsx
 
-import { mongooseAdapter } from '@payloadcms/db-mongodb'
+import mongoose from 'mongoose'
 import { config } from 'dotenv'
 
 config()
 
 async function updateStatusField() {
   try {
+    if (!process.env.MONGODB_URI) {
+      throw new Error('La variable MONGODB_URI no está definida')
+    }
+
     console.log('🚀 Conectando a MongoDB...')
-    
-    const adapter = mongooseAdapter({
-      url: process.env.MONGODB_URI || '',
-    })
-    
-    await adapter.connect()
+
+    await mongoose.connect(process.env.MONGODB_URI)
     console.log('✅ Conectado a MongoDB')
 
-    const db = adapter.connection.db
+    const db = mongoose.connection.db
     
     // Actualizar proyectos que no tienen _status
     console.log('📝 Actualizando proyectos...')
@@ -39,6 +39,9 @@ async function updateStatusField() {
   } catch (error) {
     console.error('❌ Error durante la migración:', error)
   } finally {
+    await mongoose.disconnect().catch(() => {
+      /* ignoramos errores al desconectar */
+    })
     process.exit(0)
   }
 }
