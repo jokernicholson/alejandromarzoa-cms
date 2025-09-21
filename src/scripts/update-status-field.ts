@@ -17,7 +17,10 @@ async function updateStatusField() {
     console.log('✅ Conectado a MongoDB')
 
     const db = mongoose.connection.db
-    
+    if (!db) {
+      throw new Error('No se pudo obtener la instancia de la base de datos')
+    }
+
     // Actualizar proyectos que no tienen _status
     console.log('📝 Actualizando proyectos...')
     const proyectosResult = await db.collection('proyectos').updateMany(
