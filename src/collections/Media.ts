@@ -10,7 +10,7 @@ export const Media: CollectionConfig = {
     },
   },
   admin: {
-    defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
+    defaultColumns: ['alt', 'filename', 'mimeType', 'filesize'],
   },
   access: {
     read: () => true, // Permitir acceso a todos los archivos media
