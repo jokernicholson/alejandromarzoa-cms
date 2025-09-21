@@ -13,18 +13,7 @@ export const Media: CollectionConfig = {
     defaultColumns: ['alt', 'filename', 'mimeType', 'filesize', '_status'],
   },
   access: {
-    read: ({ req }) => {
-      // Para usuarios autenticados, mostrar todos los documentos
-      if (req.user) {
-        return true;
-      }
-      // Para usuarios no autenticados, solo mostrar documentos publicados
-      return {
-        _status: {
-          equals: 'published',
-        },
-      };
-    },
+    read: () => true, // Permitir acceso a todos los archivos media
   },
   fields: [
     {
